@@ -1,0 +1,2 @@
+{"level":30,"time":1596405787274,"pid":5020,"hostname":"DESKTOP-6U75LSN","msg":"Server running on port: 3000","v":1}
+{"level":50,"time":1596405787274,"pid":5020,"hostname":"DESKTOP-6U75LSN","msg":"Error connecting to MongoDB {\"name\":\"MongoParseError\"}","v":1}
