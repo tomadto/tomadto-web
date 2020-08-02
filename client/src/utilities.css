@@ -15,27 +15,33 @@
 */
 
 /* TODO: REPLACE WITH YOUR OWN FONT! */
-@import url("https://fonts.googleapis.com/css?family=Roboto&display=swap");
-
+/* @import url("https://fonts.googleapis.com/css?family=Roboto&display=swap"); */
+@import url('https://fonts.googleapis.com/css2?family=Zilla+Slab&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@300..700&display=swap');
 :root {
-  --primary: #396dff;
-  --primary--dim: #6987db;
+  --primary: #F8DEDA;
+  --secondary: #428184;
   --darkgrey: #d4d4d4;
   --medgrey: #e0e0e0;
   --grey: #f7f7f7;
   --white: #fff;
+  --black: #000;
+  --text-dark: #233629;
+  --text-light: #F0F5F1;
 
-  --xs: 4px;
-  --s: 8px;
-  --m: 16px;
-  --l: 24px;
+  --xs: .25em;
+  --s: .5em;
+  --m: 1em;
+  --l: 1.5em;
+  --xl: 2em;
+  
 }
-
 body {
   margin: 0;
   padding: 0;
-  font-family: "Roboto", sans-serif;
-  font-weight: 300;
+  font-family: "Catamaran", sans-serif;
+  font-weight: 400;
+  background-color: var(--primary);
 }
 
 form {

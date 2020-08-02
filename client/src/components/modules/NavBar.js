@@ -16,7 +16,9 @@ class NavBar extends Component {
   render() {
     return (
       <nav className="NavBar-container">
-        <h1>Hello World</h1>
+        <div className="NavBar-title">
+          <header>tomadto/web</header>
+        </div>
       </nav>
     );
   }

@@ -1,0 +1,13 @@
+.NavBar-container{
+  background-color: var(--secondary);
+  height: 3em;
+  width: 100%;
+  position: sticky;
+  top: 0;
+}
+
+.Navbar-title{
+  font-family: "Zilla Slab", serif;
+  font-weight: 400;
+  font-size: var(--xl);
+}
