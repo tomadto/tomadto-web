@@ -2,10 +2,11 @@
   width: 100%;
 }
 .Home-text{
-  flex-basis: 960px;
+  
+  flex-basis: 896px;
   justify-content: center;
   flex-shrink: 0;
-  margin: 2em;
+  margin: 32px 64px;
 }
 .Home-flex{
   display: flex;
