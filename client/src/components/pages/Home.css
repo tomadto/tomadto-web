@@ -1,7 +1,16 @@
 .Home-container{
-  width: 50%;
-  padding: 0 25%;
+  width: 100%;
+}
+.Home-text{
+  flex-basis: 960px;
+  justify-content: center;
+  flex-shrink: 0;
+  margin: 2em;
 }
 .Home-flex{
   display: flex;
+}
+.Home-emptySpace{
+  flex-basis: 480px;
+  flex-shrink: 1;
 }

@@ -4,19 +4,26 @@
   width: 100%;
   position: sticky;
   top: 0;
+  display: flex;
   
+}
+.NavBar-emptySpace{
+  flex-basis: 480px;
+  flex-shrink: 1;
 }
 .NavBar-flex{
   display: flex;
   justify-content: start;
-  padding: 0 25%;
+  flex-basis: 960px;
+  flex-shrink: 0;
+  padding: 0 2rem;
 }
 .NavBar-title{
   font-family: "Zilla Slab", serif;
   font-weight: 500;
   font-size: var(--xl);
   line-height: 1.5em;
-  padding: 0 2rem;
+  padding: 0 2rem 0 0;
   
 }
 

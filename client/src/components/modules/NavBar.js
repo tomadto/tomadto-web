@@ -18,6 +18,7 @@ class NavBar extends Component {
     return (
       <>
         <nav className="NavBar-container">
+        <div className="NavBar-emptySpace"/>
           <div className="NavBar-flex">
             <header className="NavBar-title">tomadto/web</header>
             <div className="NavBar-link">home</div>
@@ -25,6 +26,7 @@ class NavBar extends Component {
             <div className="NavBar-link">resume</div>
             <div className="NavBar-link">fun</div>
           </div>
+          <div className="NavBar-emptySpace"/>
         </nav>
       </>
     );

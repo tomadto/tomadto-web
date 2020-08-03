@@ -16,8 +16,12 @@ class Home extends Component {
 
   render() {
     return (
-      <div className="Home-container">
-        {lorem}
+      <div className="Home-container Home-flex">
+        <div className="Home-emptySpace"/>
+        <div className="Home-text">
+          {lorem}
+        </div>
+        <div className="Home-emptySpace"/>
       </div>
     );
   }
