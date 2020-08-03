@@ -3,10 +3,11 @@
 }
 .Home-text{
   
-  flex-basis: 896px;
-  justify-content: center;
-  flex-shrink: 0;
-  margin: 32px 64px;
+  max-width: 896px;
+  /* justify-content: center; */
+  /* flex-shrink: 0; */
+  margin: 2em auto;
+  padding: 1em;
 }
 .Home-flex{
   display: flex;
