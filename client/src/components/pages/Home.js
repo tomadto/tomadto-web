@@ -2,6 +2,7 @@ import React, { Component } from "react";
 
 import "../../utilities.css";
 import "./Home.css";
+import lorem from "../modules/lorem.js"
 class Home extends Component {
   constructor(props) {
     super(props);
@@ -15,9 +16,9 @@ class Home extends Component {
 
   render() {
     return (
-      <>
-        <p>Hello World</p>
-      </>
+      <div className="Home-container">
+        {lorem}
+      </div>
     );
   }
 }

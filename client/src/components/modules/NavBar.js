@@ -2,6 +2,7 @@ import React, { Component } from "react";
 
 import "../../utilities.css";
 import "./NavBar.css";
+import { Link } from "react-router-dom";
 class NavBar extends Component {
   constructor(props) {
     super(props);
@@ -15,11 +16,17 @@ class NavBar extends Component {
 
   render() {
     return (
-      <nav className="NavBar-container">
-        <div className="NavBar-title">
-          <header>tomadto/web</header>
-        </div>
-      </nav>
+      <>
+        <nav className="NavBar-container">
+          <div className="NavBar-flex">
+            <header className="NavBar-title">tomadto/web</header>
+            <div className="NavBar-link">home</div>
+            <div className="NavBar-link">projects</div>
+            <div className="NavBar-link">resume</div>
+            <div className="NavBar-link">fun</div>
+          </div>
+        </nav>
+      </>
     );
   }
 }

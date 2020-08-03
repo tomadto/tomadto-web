@@ -1,1 +1,7 @@
-/* Fill me in :) */
+.Home-container{
+  width: 50%;
+  padding: 0 25%;
+}
+.Home-flex{
+  display: flex;
+}
