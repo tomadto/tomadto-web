@@ -24,15 +24,15 @@ class App extends Component {
     };
   }
 
-  componentDidMount() {}
+  // componentDidMount() {}
 
-  setUser = (user) => {
-    this.setState({ user });
-  };
+  // setUser = (user) => {
+  //   this.setState({ user });
+  // };
 
-  handleLogout = () => {
-    this.setState({ user: undefined });
-  };
+  // handleLogout = () => {
+  //   this.setState({ user: undefined });
+  // };
 
   render() {
     return (
@@ -44,9 +44,9 @@ class App extends Component {
             <Route exact path="/">
               <Home
               // path="/"
-              setUser={this.setUser}
-              logout={this.handleLogout}
-              user={this.state.user}
+              // setUser={this.setUser}
+              // logout={this.handleLogout}
+              // user={this.state.user}
               />
               
             </Route>

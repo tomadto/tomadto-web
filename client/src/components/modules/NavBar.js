@@ -3,18 +3,9 @@ import React, { Component } from "react";
 import "../../utilities.css";
 import "./NavBar.css";
 import { Link } from "react-router-dom";
-class NavBar extends Component {
-  constructor(props) {
-    super(props);
-    // Initialize Default State
-    this.state = {};
-  }
+function NavBar(props){
 
-  componentDidMount() {
-    // remember -- api calls go here!
-  }
 
-  render() {
     return (
       <>
         <nav className="NavBar-container">
@@ -30,7 +21,6 @@ class NavBar extends Component {
         </nav>
       </>
     );
-  }
 }
 
 export default NavBar;
