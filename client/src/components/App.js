@@ -4,6 +4,7 @@ import { BrowserRouter, Route, Switch, Redirect } from "react-router-dom";
 // import { Router } from "@reach/router";
 import NotFound from "./pages/NotFound.js";
 import Home from "./pages/Home.js";
+import Landing from "./pages/Landing.js";
 import NavBar from "./modules/NavBar.js";
 
 import "../utilities.css";
@@ -34,14 +35,10 @@ const App = () => {
       <NavBar />
       <BrowserRouter>
         <Switch>
-          <Route exact path="/">
-            <Home
-            // path="/"
-            // setUser={this.setUser}
-            // logout={this.handleLogout}
-            // user={this.state.user}
-            />
-          </Route>
+          <Route component={Landing} path="/landing" />
+          <Route component={Home} exact path="/" />
+          {/* <Route exact path="/" component={Home} /> */}
+
           <Route component={NotFound} default />
         </Switch>
       </BrowserRouter>
