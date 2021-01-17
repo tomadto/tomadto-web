@@ -14,34 +14,23 @@ import { fab } from "@fortawesome/free-brands-svg-icons";
 import { fas } from "@fortawesome/free-solid-svg-icons";
 
 library.add(fab, fas);
-/**
- * Define the "App" component as a class.
- */
+
 const App = () => {
-  // makes props available in this component
+  /*react router equivalent
 
-  // componentDidMount() {}
-
-  // setUser = (user) => {
-  //   this.setState({ user });
-  // };
-
-  // handleLogout = () => {
-  //   this.setState({ user: undefined });
-  // };
-
-  //   return (
-  // <>
-  //   <NavBar />
-  //   <BrowserRouter>
-  //     <Switch>
-  //       <Route component={Landing} path="/landing" />
-  //       <Route component={Home} exact path="/" />
-  //       <Route component={NotFound} default />
-  //     </Switch>
-  //   </BrowserRouter>
-  // </>
-  //   );
+    return (
+  <>
+    <NavBar />
+    <BrowserRouter>
+      <Switch>
+        <Route component={Landing} path="/landing" />
+        <Route component={Home} exact path="/" />
+        <Route component={NotFound} default />
+      </Switch>
+    </BrowserRouter>
+  </>
+    );
+  */
   return (
     <>
       <NavBar />

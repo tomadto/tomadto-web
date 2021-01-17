@@ -34,7 +34,7 @@ const Home = (props) => {
         <div className="Home-miniNav u-flex u-flex-justifyCenter">
           <Link
             to="/0"
-            // TODO: make this and similar a word, if only I was using typescript
+            // TODO: make this and similar a word, if only I was using typescript and could use enums...
             className={`${content === 0 ? "u-textDark " : "u-textGrey "}u-textCenter Home-link`}
             onClick={handleClick}
           >
