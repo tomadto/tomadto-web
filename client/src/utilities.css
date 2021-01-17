@@ -16,25 +16,26 @@
 
 /* TODO: REPLACE WITH YOUR OWN FONT! */
 /* @import url("https://fonts.googleapis.com/css?family=Roboto&display=swap"); */
-@import url('https://fonts.googleapis.com/css2?family=Zilla+Slab:wght@300..700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@300..700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Zilla+Slab:wght@300..700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Catamaran:wght@300..700&display=swap");
 :root {
-  --primary: #F8DEDA;
-  --secondary: #428184;
+  --primary: #fdf6e3;
+  --secondary: #982649;
   --darkgrey: #d4d4d4;
   --medgrey: #e0e0e0;
   --grey: #f7f7f7;
   --white: #fff;
   --black: #000;
-  --text-dark: #233629;
-  --text-light: #F0F5F1;
+  --text-dark: #0a0908;
+  --text-light: #f0f5f1;
 
-  --xs: .25em;
-  --s: .5em;
-  --m: 1em;
-  --l: 1.5em;
-  --xl: 2em;
-  
+  --xs: 0.25rem;
+  --s: 0.5rem;
+  --m: 1rem;
+  --l: 1.5rem;
+  --xl: 2rem;
+  --xxl: 2.5rem;
+  --xxxl: 3rem;
 }
 body {
   margin: 0;

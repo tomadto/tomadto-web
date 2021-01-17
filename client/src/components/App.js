@@ -1,4 +1,5 @@
-import React, { Component } from "react";
+import React, { useState, useEffect, useCallback } from "react";
+
 import { BrowserRouter, Route, Switch, Redirect } from "react-router-dom";
 // import { Router } from "@reach/router";
 import NotFound from "./pages/NotFound.js";
@@ -15,14 +16,8 @@ library.add(fab, fas);
 /**
  * Define the "App" component as a class.
  */
-class App extends Component {
+const App = () => {
   // makes props available in this component
-  constructor(props) {
-    super(props);
-    this.state = {
-      user: undefined,
-    };
-  }
 
   // componentDidMount() {}
 
@@ -34,29 +29,24 @@ class App extends Component {
   //   this.setState({ user: undefined });
   // };
 
-  render() {
-    return (
-      <>
-      <NavBar/>
-        <BrowserRouter>
-
-          <Switch>
-            <Route exact path="/">
-              <Home
-              // path="/"
-              // setUser={this.setUser}
-              // logout={this.handleLogout}
-              // user={this.state.user}
-              />
-              
-            </Route>
-            <Route component={NotFound} default />
-            
-          </Switch>
-        </BrowserRouter>
-      </>
-    );
-  }
-}
+  return (
+    <>
+      <NavBar />
+      <BrowserRouter>
+        <Switch>
+          <Route exact path="/">
+            <Home
+            // path="/"
+            // setUser={this.setUser}
+            // logout={this.handleLogout}
+            // user={this.state.user}
+            />
+          </Route>
+          <Route component={NotFound} default />
+        </Switch>
+      </BrowserRouter>
+    </>
+  );
+};
 
 export default App;

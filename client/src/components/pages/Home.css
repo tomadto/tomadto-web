@@ -1,18 +1,33 @@
-.Home-container{
+.Home-container {
   width: 100%;
 }
-.Home-text{
-  
+.Home-text {
   max-width: 896px;
   /* justify-content: center; */
   /* flex-shrink: 0; */
   margin: 2em auto;
   padding: 1em;
 }
-.Home-flex{
-  display: flex;
+.Home-miniNav-Container {
+  padding: 25px 0;
 }
-.Home-emptySpace{
-  flex-basis: 480px;
-  flex-shrink: 1;
+
+.Home-miniNav {
+  justify-content: center;
+  flex: 0 0 18em;
+}
+.Home-link {
+  flex: 1;
+  font-weight: 500;
+  font-size: 1.25rem;
+}
+.Home-emptySpace {
+  flex: 1;
+}
+.Home-horizontalLine {
+  width: 5em;
+  height: 2px;
+  background-color: var(--text-dark);
+  border-radius: 2px;
+  color: var(--text-dark);
 }

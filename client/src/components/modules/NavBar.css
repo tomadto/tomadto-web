@@ -1,38 +1,36 @@
-.NavBar-container{
+.NavBar-container {
   background-color: var(--secondary);
   height: 3em;
   width: 100%;
   position: sticky;
   top: 0;
   display: flex;
-  
+  transition: background-color 0.2s;
 }
-.NavBar-emptySpace{
+
+.NavBar-emptySpace {
   flex-basis: 480px;
   flex-shrink: 1;
 }
-.NavBar-flex{
+
+.NavBar-flexBox {
   color: var(--text-light);
-  display: flex;
-  justify-content: start;
-  flex-basis: 960px;
-  flex-shrink: 0;
-  padding: 0 2rem;
+  width: 100%;
 }
-.NavBar-title{
+.NavBar-title {
   font-family: "Zilla Slab", serif;
-  font-weight: 500;
+  font-weight: 800;
   font-size: var(--xl);
+  margin: auto;
   line-height: 1.5em;
-  padding: 0 2rem 0 0;
-  
+  transition: color 0.2s;
 }
 
-.NavBar-hidden{
-  background: rgb(248,222,218,0);
+.NavBar-hidden {
+  background: rgb(248, 222, 218, 0);
 }
 
-.NavBar-link{
+.NavBar-link {
   font-family: "Catamaran", sans-serif;
   font-size: var(--m);
   vertical-align: center;
@@ -40,4 +38,17 @@
   height: 3em;
   line-height: 3em;
   padding: 0 2em;
+  transition: color 0.2s;
+}
+
+.NavBar-transparent {
+  background: var(--primary);
+  /* font-size: var(--l); */
+}
+
+.NavBar-transparent .NavBar-title,
+.NavBar-transparent .NavBar-link {
+  color: var(--text-dark);
+  font-size: var(--xxxl);
+  transition: font-size 0.05s 0.2s;
 }
