@@ -21,6 +21,7 @@
 :root {
   --primary: #fdf6e3;
   --secondary: #982649;
+  --theme-grey: #7a7d7d;
   --darkgrey: #d4d4d4;
   --medgrey: #e0e0e0;
   --grey: #f7f7f7;
@@ -47,6 +48,13 @@ body {
 
 form {
   flex-grow: 1;
+}
+
+.u-textDark {
+  color: var(--text-dark);
+}
+.u-textGrey {
+  color: var(--theme-grey);
 }
 
 .u-flex {

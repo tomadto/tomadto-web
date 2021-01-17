@@ -1,4 +1,0 @@
-{"level":30,"time":1610832055064,"pid":9064,"hostname":"DESKTOP-6U75LSN","msg":"Server running on port: 3000","v":1}
-{"level":50,"time":1610832055065,"pid":9064,"hostname":"DESKTOP-6U75LSN","msg":"Error connecting to MongoDB {\"name\":\"MongoParseError\"}","v":1}
-{"level":30,"time":1610835326749,"pid":23376,"hostname":"DESKTOP-6U75LSN","msg":"Server running on port: 3000","v":1}
-{"level":50,"time":1610835326750,"pid":23376,"hostname":"DESKTOP-6U75LSN","msg":"Error connecting to MongoDB {\"name\":\"MongoParseError\"}","v":1}
