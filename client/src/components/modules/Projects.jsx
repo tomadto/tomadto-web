@@ -1,4 +1,6 @@
 import React, { useState, useEffect, useCallback } from "react";
+// import { Link } from "react-router-dom";
+import { Link } from "@reach/router";
 // import "../pages/Home.css";
 import "../../utilities.css";
 import "./Projects.css";
@@ -15,17 +17,19 @@ const Projects = (props) => {
     <div className="Projects-container">
       <div className="Projects-emptySpace" />
       <div className="Projects-cardContainer">
-        <a>
-          {/*idk if the <a> are truly necessary but see https://stackoverflow.com/a/55288649 */}
-          <div className="Projects-card" role="button" tabIndex="0" aria-haspopup="true" onClick="">
-            <a>
-              <div className="Projects-cardInner " role="button" tabIndex="0" aria-haspopup="true">
-                <h3 className="Projects-cardInnerTitle">a title</h3>
-                <p className="Projects-cardInnerText">{lorem.lorem}</p>
-              </div>
-            </a>
+        {/*idk if the <a> are truly necessary but see https://stackoverflow.com/a/55288649 */}
+        <Link
+          to="/landing"
+          className="Projects-card"
+          role="button"
+          tabIndex="0"
+          aria-haspopup="true"
+        >
+          <div className="Projects-cardInner " role="button" tabIndex="0" aria-haspopup="true">
+            <h3 className="Projects-cardInnerTitle">a title</h3>
+            <p className="Projects-cardInnerText">{lorem.lorem}</p>
           </div>
-        </a>
+        </Link>
         <div className="Projects-card">
           <div className="Projects-cardInner "></div>
         </div>

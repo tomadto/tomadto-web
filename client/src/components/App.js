@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useCallback } from "react";
 
-import { BrowserRouter, Route, Switch, Redirect } from "react-router-dom";
-// import { Router } from "@reach/router";
+// import { BrowserRouter, Route, Switch, Redirect } from "react-router-dom";
+import { Router } from "@reach/router";
 import NotFound from "./pages/NotFound.js";
 import Home from "./pages/Home.js";
 import Landing from "./pages/Landing.js";
@@ -30,18 +30,27 @@ const App = () => {
   //   this.setState({ user: undefined });
   // };
 
+  //   return (
+  // <>
+  //   <NavBar />
+  //   <BrowserRouter>
+  //     <Switch>
+  //       <Route component={Landing} path="/landing" />
+  //       <Route component={Home} exact path="/" />
+  //       <Route component={NotFound} default />
+  //     </Switch>
+  //   </BrowserRouter>
+  // </>
+  //   );
   return (
     <>
       <NavBar />
-      <BrowserRouter>
-        <Switch>
-          <Route component={Landing} path="/landing" />
-          <Route component={Home} exact path="/" />
-          {/* <Route exact path="/" component={Home} /> */}
-
-          <Route component={NotFound} default />
-        </Switch>
-      </BrowserRouter>
+      <Router>
+        <Landing path="/landing" />
+        <Home path="/:place" />
+        <Home exact path="/" />
+        <NotFound default />
+      </Router>
     </>
   );
 };

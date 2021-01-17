@@ -18,6 +18,7 @@
 }
 .Home-link {
   flex: 1;
+  text-decoration: none;
   font-weight: 500;
   /* color: var(--theme-grey); */
   font-size: 1.25rem;
@@ -33,7 +34,8 @@
   color: var(--text-dark);
 }
 
-button {
+button,
+a {
   font-family: inherit;
   background-color: transparent;
   border: 0;
