@@ -2,7 +2,6 @@ import React, { useState, useEffect, useCallback } from "react";
 
 import "../../utilities.css";
 import "./NavBar.css";
-import { Link } from "react-router-dom";
 const NavBar = (props) => {
   const [navStatus, updateNavStatus] = useState("NavBar-transparent");
 
