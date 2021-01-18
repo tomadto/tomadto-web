@@ -6,6 +6,7 @@ import NotFound from "./pages/NotFound.js";
 import Home from "./pages/Home.js";
 import Landing from "./pages/Landing.js";
 import NavBar from "./modules/NavBar.js";
+import Footer from "./modules/Footer.jsx";
 
 import "../utilities.css";
 
@@ -32,7 +33,7 @@ const App = () => {
     );
   */
   return (
-    <>
+    <div className="u-wrapper">
       <NavBar />
       <Router>
         <Landing path="/landing" />
@@ -40,7 +41,8 @@ const App = () => {
         <Home exact path="/" />
         <NotFound default />
       </Router>
-    </>
+      <Footer />
+    </div>
   );
 };
 

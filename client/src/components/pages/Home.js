@@ -41,7 +41,7 @@ const Home = (props) => {
     return (
       <>
         <div className="u-flex Home-miniNav-Container">
-          <div className="Home-emptySpace" />
+          <div className="u-emptySpace" />
           <div className="Home-miniNav u-flex u-flex-justifyCenter">
             <Link
               to="/about"
@@ -64,8 +64,14 @@ const Home = (props) => {
             >
               fun
             </Link>
+            {/* <Link to="/fun" className="u-textGrey u-textCenter Home-link">
+              resume
+            </Link>
+            <Link to="/fun" className="u-textGrey u-textCenter Home-link">
+              classes
+            </Link> */}
           </div>
-          <div className="Home-emptySpace" />
+          <div className="u-emptySpace" />
         </div>
         <hr className="Home-horizontalLine" />
         <div className="Home-container">

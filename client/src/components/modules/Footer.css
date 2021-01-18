@@ -1,0 +1,11 @@
+/*.Footer*/
+.Footer-container {
+  background-color: transparent;
+  height: 24px;
+  width: 100%;
+  display: flex;
+  margin: 16px 0;
+  padding: 8px 0;
+  /* position: absolute; */
+  top: calc(100%-50px);
+}

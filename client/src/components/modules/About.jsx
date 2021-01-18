@@ -10,7 +10,7 @@ const About = (props) => {
   return (
     <>
       <div className="About-container">
-        <div className="About-emptySpace" />
+        <div className="u-emptySpace" />
         <div className="About-contentContainer">
           <section>
             <h2 className="u-textCenter">Welcome to my Website!</h2>
@@ -26,7 +26,9 @@ const About = (props) => {
             <ul>
               <li>making this website!</li>
               <li>staffing web.lab a web development class/competition.</li>
-              <li>staying at home, playing games, sleeping, and taking care of myself :)</li>
+              <li>
+                staying at home, playing games, sleeping (kinda...), and taking care of myself :)
+              </li>
             </ul>
           </section>
           <section>
@@ -39,12 +41,12 @@ const About = (props) => {
             </p>
           </section>
           <div className="u-flex">
-            <div className="About-emptySpace" />
+            <div className="u-emptySpace" />
             <img src={me} alt="It's me tommy" />
-            <div className="About-emptySpace" />
+            <div className="u-emptySpace" />
           </div>
         </div>
-        <div className="About-emptySpace" />
+        <div className="u-emptySpace" />
       </div>
     </>
   );

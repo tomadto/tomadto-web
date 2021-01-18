@@ -4,35 +4,22 @@ import { Link } from "@reach/router";
 // import "../pages/Home.css";
 import "../../utilities.css";
 import "./Projects.css";
+import "./backgrounds.css";
 import lorem from "./lorem.json";
+import ProjListing from "./ProjListing.js";
 
 //mobile friendliness https://stackoverflow.com/a/55288649
 
 const Projects = (props) => {
-  const cardContent = [
-    { title: "osu", text: "osu is a game", link: "/projects/osu" },
-    { title: "bosu", text: "bosu is a game", link: "/projects/bosu" },
-    { title: "osu", text: "osu is a game", link: "/projects/osu" },
-    { title: "bosu", text: "bosu is a game", link: "/projects/bosu" },
-    { title: "osu", text: "osu is a game", link: "/projects/osu" },
-    { title: "bosu", text: "bosu is a game", link: "/projects/bosu" },
-    { title: "osu", text: "osu is a game", link: "/projects/osu" },
-    { title: "bosu", text: "bosu is a game", link: "/projects/bosu" },
-    { title: "osu", text: "osu is a game", link: "/projects/osu" },
-    { title: "bosu", text: "bosu is a game", link: "/projects/bosu" },
-    { title: "osu", text: "osu is a game", link: "/projects/osu" },
-    { title: "bosu", text: "bosu is a game", link: "/projects/bosu" },
-  ];
-  () => cardContent.forEach((element) => element.push({ key: cardContent.findIndex(element) }));
-
+  const [cardContent, setCardContent] = useState(ProjListing);
   return (
     <div className="Projects-container">
-      <div className="Projects-emptySpace" />
+      <div className="u-emptySpace" />
       <div className="Projects-cardContainer">
         {cardContent.map((card) => (
           <div
             key={card.key}
-            className="Projects-card"
+            className={`Projects-card ${card.bgClass}`}
             role="button"
             tabIndex="0"
             aria-haspopup="true"
@@ -53,7 +40,7 @@ const Projects = (props) => {
           </div>
         ))}
       </div>
-      <div className="Projects-emptySpace" />
+      <div className="u-emptySpace" />
     </div>
   );
 };

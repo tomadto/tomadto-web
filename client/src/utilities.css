@@ -80,6 +80,9 @@ p {
 .u-flex-alignCenter {
   align-items: center;
 }
+.u-emptySpace {
+  flex: 1;
+}
 
 .u-inlineBlock {
   display: inline-block;
@@ -109,4 +112,10 @@ p {
 
 .u-link:hover {
   color: var(--primary--dim);
+}
+
+.u-wrapper {
+  min-height: 100%;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
 }

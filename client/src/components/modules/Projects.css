@@ -43,13 +43,13 @@
   background-color: var(--black);
   /* background-color: var(--theme-grey); */
   /* background-color: var(--secondary); */
-  width: calc(20px * 16);
-  height: calc(20px * 10);
+  width: calc(24px * 16);
+  height: calc(24px * 9);
   margin: 8px;
   overflow: hidden;
 }
 .Projects-cardInner {
-  background-color: #8eb8e5;
+  background-color: #8eb8e5ee;
 
   /* justify-self: right; */
   position: relative;
@@ -91,12 +91,8 @@
 .Projects-card:hover .Projects-cardInner,
 .Projects-card:focus .Projects-cardInner,
 .Projects-card:active .Projects-cardInner {
-  left: 20%;
-  width: 80%;
+  left: 0%;
+  width: 100%;
   color: var(--text-dark);
   transition: left 0.5s, width 0.5s, color 0.5s 0.3s;
-}
-
-.Projects-emptySpace {
-  flex: 1;
 }

@@ -8,11 +8,6 @@
   transition: background-color 0.2s;
 }
 
-.NavBar-emptySpace {
-  flex-basis: 480px;
-  flex-shrink: 1;
-}
-
 .NavBar-flexBox {
   color: var(--text-light);
   width: 100%;

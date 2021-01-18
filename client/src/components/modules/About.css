@@ -10,9 +10,6 @@
   justify-content: center;
   max-width: calc(0.35 * 1920px);
 }
-.About-emptySpace {
-  flex: 1;
-}
 
 img {
   max-width: 300px;
