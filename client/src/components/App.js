@@ -39,6 +39,9 @@ const App = () => {
         {/* <Landing path="/landing" /> */}
         <Home path="/:place" />
         <Home path="/" />
+        <Home path="/projects" />
+        <Home path="/about" />
+        <Home path="/fun" />
         <NotFound default />
       </Router>
       <Footer />
