@@ -36,9 +36,9 @@ const App = () => {
     <div className="u-wrapper">
       <NavBar />
       <Router>
-        <Landing path="/landing" />
+        {/* <Landing path="/landing" /> */}
         <Home path="/:place" />
-        <Home exact path="/" />
+        <Home path="/" />
         <NotFound default />
       </Router>
       <Footer />
