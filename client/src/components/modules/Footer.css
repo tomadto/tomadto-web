@@ -9,3 +9,6 @@
   /* position: absolute; */
   top: calc(100%-50px);
 }
+.Footer-container div {
+  margin: auto 10px;
+}

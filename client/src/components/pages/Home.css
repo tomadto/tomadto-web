@@ -15,6 +15,9 @@
 .Home-miniNav {
   justify-content: center;
   flex: 0 0 18em;
+  display: grid;
+  grid-auto-flow: column;
+  gap: 16px;
 }
 .Home-link {
   flex: 1;
@@ -27,6 +30,7 @@
 .Home-horizontalLine {
   width: 10em;
   height: 2px;
+  margin: 1.5em auto;
   align-self: center;
   background-color: var(--text-dark);
   border-radius: 2px;

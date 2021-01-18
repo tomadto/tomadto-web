@@ -42,7 +42,7 @@ const Home = (props) => {
       <>
         <div className="u-flex Home-miniNav-Container">
           <div className="u-emptySpace" />
-          <div className="Home-miniNav u-flex u-flex-justifyCenter">
+          <div className="Home-miniNav">
             <Link
               to="/about"
               className={`${content === 0 ? "u-textDark " : "u-textGrey "}u-textCenter Home-link`}
@@ -64,12 +64,12 @@ const Home = (props) => {
             >
               fun
             </Link>
-            {/* <Link to="/fun" className="u-textGrey u-textCenter Home-link">
+            <Link to="/fun" className="u-textGrey u-textCenter Home-link">
               resume
             </Link>
             <Link to="/fun" className="u-textGrey u-textCenter Home-link">
               classes
-            </Link> */}
+            </Link>
           </div>
           <div className="u-emptySpace" />
         </div>

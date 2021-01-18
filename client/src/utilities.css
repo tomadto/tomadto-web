@@ -51,7 +51,7 @@ form {
   flex-grow: 1;
 }
 p {
-  line-height: 1.15;
+  line-height: 1.25;
 }
 .u-it {
   font-style: italic;
@@ -90,6 +90,7 @@ p {
 
 .u-bold {
   font-weight: 600;
+  color: var(--secondary);
 }
 
 .u-textCenter {

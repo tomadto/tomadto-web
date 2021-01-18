@@ -8,11 +8,28 @@
   flex: 0 0 auto;
   margin: 0 10%;
   justify-content: center;
-  max-width: calc(0.35 * 1920px);
+  max-width: calc(0.4 * 1920px);
 }
 
-img {
+.About-container img {
   max-width: 300px;
   flex: 2 0 auto;
+  float: right;
   text-align: center;
+  margin: 0.5rem;
+  margin-top: 0.25rem;
+}
+.About-container h2 {
+  margin-top: 0;
+  color: var(--secondary);
+}
+.About-container h3 {
+  color: var(--secondary);
+}
+.About-container h4 {
+  font-weight: 700;
+  color: var(--secondary);
+}
+.About-container li {
+  line-height: 1.5;
 }

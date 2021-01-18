@@ -14,10 +14,11 @@ const About = (props) => {
         <div className="About-contentContainer">
           <section>
             <h2 className="u-textCenter">Welcome to my Website!</h2>
+            <img src={me} alt="It's me tommy" />
             <p>
-              I'm Tommy Adebiyi! I sometimes go by <span className="u-it u-bold">tomadto</span>{" "}
-              online. I'm a senior at MIT studying Mechanical Engineering & Design ("2A-Design"). I
-              like making, coding, trying new things and all things design.
+              I'm Tommy Adebiyi! I sometimes go by <span className="u-bold">tomadto</span> online.
+              I'm a senior at MIT studying Mechanical Engineering & Design ("2A-Design"). I like
+              making, coding, trying new things and all things design.
             </p>
             <p></p>
           </section>
@@ -25,24 +26,49 @@ const About = (props) => {
             <h3>What I've been up to...</h3>
             <ul>
               <li>making this website!</li>
-              <li>staffing web.lab a web development class/competition.</li>
               <li>
-                staying at home, playing games, sleeping (kinda...), and taking care of myself :)
+                staffing{" "}
+                <a href="https://weblab.mit.edu" className="u-bold">
+                  web.lab
+                </a>
+                , a web development class and competition.
               </li>
+              <li>
+                staying at home, playing games, sleeping (kinda...), and taking care of myself. 😊
+              </li>
+              <li>preparing for my 8th and last semester at MIT.</li>
             </ul>
           </section>
           <section>
-            <h3>Classes I've taken...</h3>
-            <h4>Fa</h4>
-            <p>
-              I'm Thomas Adebiyi! I sometimes go by <span className="u-it u-bold">tomadto</span>{" "}
-              online. I'm a senior at MIT studying Mechanical Engineering & Design ("2A-Design"). I
-              like making, coding, trying new things and all things design.
-            </p>
+            <h3>What I've recently done...</h3>
+            <ul>
+              <li>survived 2020. 😰</li>
+              <li>
+                <a
+                  href="https://s009kindness.com/images/productSheets/red_spartan_product_sheet_sm.pdf"
+                  className="u-bold"
+                >
+                  launched a product prototype
+                </a>{" "}
+                as a part of the{" "}
+                <a href="https://s009kindness.com/" className="u-bold">
+                  2.s009
+                </a>{" "}
+                red team!
+              </li>
+
+              <li>said goodbye to next house...</li>
+            </ul>
+          </section>
+          <section>
+            <h4>
+              This website was coded in <a href="https://reactjs.org">React!</a>
+            </h4>
+            <p></p>
           </section>
           <div className="u-flex">
             <div className="u-emptySpace" />
-            <img src={me} alt="It's me tommy" />
+
             <div className="u-emptySpace" />
           </div>
         </div>
