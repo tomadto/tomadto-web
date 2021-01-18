@@ -1,5 +1,6 @@
 import React, { useState, useEffect, useCallback } from "react";
 import "../pages/Home.css";
+import Home from "../pages/Home.js";
 import "./About.css";
 import "../../utilities.css";
 // import me from "../../public/img/10-30-2020_Lecture_Adjusted-31.jpg";
@@ -8,7 +9,7 @@ import lorem from "./lorem.json";
 const About = (props) => {
   // return <div className="Home-text">{lorem.lorem}</div>;
   return (
-    <>
+    <Home place="about">
       <div className="About-container">
         <div className="u-emptySpace" />
         <div className="About-contentContainer">
@@ -74,7 +75,7 @@ const About = (props) => {
         </div>
         <div className="u-emptySpace" />
       </div>
-    </>
+    </Home>
   );
 };
 

@@ -4,6 +4,8 @@ import React, { useState, useEffect, useCallback } from "react";
 import { Router } from "@reach/router";
 import NotFound from "./pages/NotFound.js";
 import Home from "./pages/Home.js";
+import About from "./modules/About.jsx";
+import Projects from "./modules/Projects.jsx";
 import Landing from "./pages/Landing.js";
 import NavBar from "./modules/NavBar.js";
 import Footer from "./modules/Footer.jsx";
@@ -37,11 +39,11 @@ const App = () => {
       <NavBar />
       <Router>
         {/* <Landing path="/landing" /> */}
-        <Home path="/:place" />
-        <Home path="/" />
-        <Home path="/projects" />
-        <Home path="/about" />
-        <Home path="/fun" />
+        {/* <Home path="/:place" /> */}
+        <About exact path="/" />
+        <About path="/about" />
+        <Projects path="/projects" />
+
         <NotFound default />
       </Router>
       <Footer />

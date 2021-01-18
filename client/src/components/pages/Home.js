@@ -76,7 +76,8 @@ const Home = (props) => {
         <hr className="Home-horizontalLine" />
         <div className="Home-container">
           {/* <div className="Home-emptySpace"/> */}
-          {pages[content]}
+          {/* {pages[content]} */}
+          {props.children}
           {/* <div className="Home-emptySpace"/> */}
         </div>
       </>
