@@ -8,8 +8,6 @@
   scrollbar-width: thin;
   /*scrollbar-color: var(--theme-grey) var(--medgrey); /* scroll thumb and track */
   scrollbar-color: var(--theme-grey) transparent; /* scroll thumb and track */
-
-  /* display: flex; */
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-auto-flow: row dense;
@@ -48,19 +46,21 @@
   width: calc(20px * 16);
   height: calc(20px * 10);
   margin: 8px;
+  overflow: hidden;
 }
 .Projects-cardInner {
   background-color: #8eb8e5;
 
   /* justify-self: right; */
   position: relative;
-  left: 100%;
+  left: 103%;
   width: 0%;
   /* left: 20%;
   width: 80%; */
   height: 100%;
   transition: left 0.5s 0.3s, width 0.5s 0.3s, color 0.3s;
   color: transparent;
+  overflow: hidden;
   /* color: var(--text-dark); */
 }
 .Projects-cardInnerTitle {
@@ -73,10 +73,18 @@
 
 .Projects-cardInnerText {
   padding: var(--s);
+  /* background-color: #8eb8e5; */
   margin: auto;
   font-size: var(--m);
 }
 
+.Projects-cardInnerLink {
+  position: absolute;
+  /* left: 50%; */
+  padding: var(--s);
+  margin: auto;
+  font-size: var(--m);
+}
 .Projects-cardInner:hover,
 .Projects-cardInner:focus,
 .Projects-cardInner:active,

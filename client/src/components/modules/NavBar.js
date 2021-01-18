@@ -8,9 +8,9 @@ const NavBar = (props) => {
 
   const handleScroll = (e) => {
     if (window.scrollY > 40) {
-      if (navStatus !== "") {
+      if (navStatus !== "NavBar-sticky") {
         console.log(window.scrollY);
-        updateNavStatus("");
+        updateNavStatus("NavBar-sticky");
       }
     } else {
       if (navStatus !== "NavBar-transparent") {

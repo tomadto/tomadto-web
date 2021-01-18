@@ -9,7 +9,7 @@
   padding: 1em;
 }
 .Home-miniNav-Container {
-  padding: 25px 0;
+  padding: 25px 0 0 12px;
 }
 
 .Home-miniNav {
@@ -27,8 +27,9 @@
   flex: 1;
 }
 .Home-horizontalLine {
-  width: 5em;
+  width: 10em;
   height: 2px;
+  align-self: center;
   background-color: var(--text-dark);
   border-radius: 2px;
   color: var(--text-dark);

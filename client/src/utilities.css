@@ -16,8 +16,9 @@
 
 /* TODO: REPLACE WITH YOUR OWN FONT! */
 /* @import url("https://fonts.googleapis.com/css?family=Roboto&display=swap"); */
-@import url("https://fonts.googleapis.com/css2?family=Zilla+Slab:wght@300..700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Zilla+Slab:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Catamaran:wght@300..700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Catamaran:wght@100;200;300;400;500;600;700;800;900&display=swap");
 :root {
   --primary: #fdf6e3;
   --secondary: #982649;
@@ -48,6 +49,12 @@ body {
 
 form {
   flex-grow: 1;
+}
+p {
+  line-height: 1.15;
+}
+.u-it {
+  font-style: italic;
 }
 
 .u-textDark {

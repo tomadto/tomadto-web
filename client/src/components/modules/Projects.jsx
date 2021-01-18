@@ -6,43 +6,56 @@ import "../../utilities.css";
 import "./Projects.css";
 import lorem from "./lorem.json";
 
+//mobile friendliness https://stackoverflow.com/a/55288649
+
 const Projects = (props) => {
-  // useEffect(() => {
-  //   document.addEventListener("touchstart", function () {}, true);
-  //   // return () => {
-  //   //   document.removeEventListener("touchstart", function () {}, true);
-  //   // };
-  // });
+  const cardContent = [
+    { title: "osu", text: "osu is a game", link: "/projects/osu" },
+    { title: "bosu", text: "bosu is a game", link: "/projects/bosu" },
+    { title: "osu", text: "osu is a game", link: "/projects/osu" },
+    { title: "bosu", text: "bosu is a game", link: "/projects/bosu" },
+    { title: "osu", text: "osu is a game", link: "/projects/osu" },
+    { title: "bosu", text: "bosu is a game", link: "/projects/bosu" },
+    { title: "osu", text: "osu is a game", link: "/projects/osu" },
+    { title: "bosu", text: "bosu is a game", link: "/projects/bosu" },
+    { title: "osu", text: "osu is a game", link: "/projects/osu" },
+    { title: "bosu", text: "bosu is a game", link: "/projects/bosu" },
+    { title: "osu", text: "osu is a game", link: "/projects/osu" },
+    { title: "bosu", text: "bosu is a game", link: "/projects/bosu" },
+  ];
+  () => cardContent.forEach((element) => element.push({ key: cardContent.findIndex(element) }));
+
   return (
     <div className="Projects-container">
       <div className="Projects-emptySpace" />
       <div className="Projects-cardContainer">
-        {/*idk if the <a> are truly necessary but see https://stackoverflow.com/a/55288649 */}
-        <Link
-          to="/landing"
-          className="Projects-card"
-          role="button"
-          tabIndex="0"
-          aria-haspopup="true"
-        >
-          <div className="Projects-cardInner " role="button" tabIndex="0" aria-haspopup="true">
-            <h3 className="Projects-cardInnerTitle">a title</h3>
-            <p className="Projects-cardInnerText">{lorem.lorem}</p>
+        {cardContent.map((card) => (
+          <div
+            key={card.key}
+            className="Projects-card"
+            role="button"
+            tabIndex="0"
+            aria-haspopup="true"
+          >
+            <div className="Projects-cardInner " role="button" tabIndex="0" aria-haspopup="true">
+              <h3 className="Projects-cardInnerTitle">{card.title}</h3>
+              <p className="Projects-cardInnerText">{card.text}</p>
+              <Link
+                to={card.link}
+                className="Projects-cardInnerLink"
+                role="button"
+                tabIndex="0"
+                aria-haspopup="true"
+              >
+                more...
+              </Link>
+            </div>
           </div>
-        </Link>
-        <div className="Projects-card">
-          <div className="Projects-cardInner "></div>
-        </div>
-        <div className="Projects-card"></div>
-        <div className="Projects-card"></div>
-        <div className="Projects-card"></div>
-        <div className="Projects-card"></div>
-        <div className="Projects-card"></div>
+        ))}
       </div>
       <div className="Projects-emptySpace" />
     </div>
   );
-  // return <div className="Home-text">lol</div>;
 };
 
 export default Projects;

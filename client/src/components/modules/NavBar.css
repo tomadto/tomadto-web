@@ -2,9 +2,9 @@
   background-color: var(--secondary);
   height: 3em;
   width: 100%;
-  position: sticky;
   top: 0;
   display: flex;
+  z-index: 99;
   transition: background-color 0.2s;
 }
 
@@ -23,7 +23,7 @@
   font-size: var(--xl);
   margin: auto;
   line-height: 1.5em;
-  transition: color 0.2s;
+  /* transition: color 0.2s; */
 }
 
 .NavBar-hidden {
@@ -45,10 +45,13 @@
   background: var(--primary);
   /* font-size: var(--l); */
 }
+.NavBar-sticky {
+  position: sticky;
+}
 
 .NavBar-transparent .NavBar-title,
 .NavBar-transparent .NavBar-link {
   color: var(--text-dark);
   font-size: var(--xxxl);
-  transition: font-size 0.05s 0.2s;
+  /* transition: font-size 0.05s 0.2s; */
 }
