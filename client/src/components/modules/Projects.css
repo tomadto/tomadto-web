@@ -80,6 +80,9 @@
 
 .Projects-cardInnerLink {
   position: absolute;
+  display: grid;
+  grid-auto-flow: column;
+  gap: 1em;
   /* left: 50%; */
   padding: var(--s);
   margin: auto;

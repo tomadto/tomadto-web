@@ -29,15 +29,13 @@ const Projects = (props) => {
               <div className="Projects-cardInner " role="button" tabIndex="0" aria-haspopup="true">
                 <h3 className="Projects-cardInnerTitle">{card.title}</h3>
                 <p className="Projects-cardInnerText">{card.text}</p>
-                <Link
-                  to={card.link}
-                  className="Projects-cardInnerLink"
-                  role="button"
-                  tabIndex="0"
-                  aria-haspopup="true"
-                >
-                  more...
-                </Link>
+                <div className="Projects-cardInnerLink">
+                  {card.link.map((link) => (
+                    <Link to={link.linkPath} role="button" tabIndex="0" aria-haspopup="true">
+                      {link.linkName}
+                    </Link>
+                  ))}
+                </div>
               </div>
             </div>
           ))}
