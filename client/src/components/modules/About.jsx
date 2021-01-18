@@ -2,7 +2,7 @@ import React, { useState, useEffect, useCallback } from "react";
 import "../pages/Home.css";
 import "./About.css";
 import "../../utilities.css";
-import me from "../../public/img/10-30-2020_Lecture_Adjusted-31.jpg";
+// import me from "../../public/img/10-30-2020_Lecture_Adjusted-31.jpg";
 import lorem from "./lorem.json";
 
 const About = (props) => {
@@ -14,7 +14,7 @@ const About = (props) => {
         <div className="About-contentContainer">
           <section>
             <h2 className="u-textCenter">Welcome to my Website!</h2>
-            <img src={me} alt="It's me tommy" />
+            <img src="https://tomadto.s-ul.eu/content/yWO6vpgN" alt="It's me tommy" />
             <p>
               I'm Tommy Adebiyi! I sometimes go by <span className="u-bold">tomadto</span> online.
               I'm a senior at MIT studying Mechanical Engineering & Design ("2A-Design"). I like
