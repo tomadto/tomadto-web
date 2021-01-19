@@ -1,6 +1,7 @@
 import React, { useState, useEffect, useCallback } from "react";
 // import { Link } from "react-router-dom";
 import { Link } from "@reach/router";
+import ReactMarkdown from "react-markdown";
 
 import Home from "../pages/Home.js";
 import "../../utilities.css";
@@ -28,13 +29,23 @@ const Projects = (props) => {
             >
               <div className="Projects-cardInner " role="button" tabIndex="0" aria-haspopup="true">
                 <h3 className="Projects-cardInnerTitle">{card.title}</h3>
-                <p className="Projects-cardInnerText">{card.text}</p>
+                <p className="Projects-cardInnerText">
+                  <ReactMarkdown>{card.text}</ReactMarkdown>
+                </p>
                 <div className="Projects-cardInnerLink">
-                  {card.link.map((link) => (
-                    <Link to={link.linkPath} role="button" tabIndex="0" aria-haspopup="true">
-                      {link.linkName}
-                    </Link>
-                  ))}
+                  {card.link
+                    ? card.link.map((link) =>
+                        link.external ? (
+                          <a href={link.linkPath} role="button" tabIndex="0" aria-haspopup="true">
+                            {link.linkName}
+                          </a>
+                        ) : (
+                          <Link to={link.linkPath} role="button" tabIndex="0" aria-haspopup="true">
+                            {link.linkName}
+                          </Link>
+                        )
+                      )
+                    : ""}
                 </div>
               </div>
             </div>
