@@ -7,6 +7,9 @@
 .About-contentContainer {
   flex: 0 0 auto;
   margin: 0 10%;
+  padding: var(--s);
+  border-radius: var(--s);
+  /* background-color: #fbedc8; */
   justify-content: center;
   max-width: calc(0.4 * 1920px);
 }

@@ -10,6 +10,7 @@
 
 .NavBar-flexBox {
   color: var(--text-light);
+  text-shadow: 0 2px 1px rgba(0, 0, 0, 0.15);
   width: 100%;
 }
 .NavBar-title {
@@ -47,6 +48,7 @@
 .NavBar-transparent .NavBar-title,
 .NavBar-transparent .NavBar-link {
   color: var(--text-dark);
+  text-shadow: none;
   font-size: var(--xxxl);
   /* transition: font-size 0.05s 0.2s; */
 }

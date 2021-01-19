@@ -38,6 +38,11 @@ const App = () => {
   */
   return (
     <div className="u-wrapper">
+      {/* <div className="u-bg">
+        <div className="u-emptySpace" />
+        <div className="u-darkBg" />
+        <div className="u-emptySpace" />
+      </div> */}
       <NavBar />
       <Router>
         {/* <Landing path="/landing" /> */}

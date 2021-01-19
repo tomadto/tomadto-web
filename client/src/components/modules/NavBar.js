@@ -31,7 +31,7 @@ const NavBar = (props) => {
     <>
       <nav className={`${navStatus} NavBar-container`}>
         <div className="u-flex NavBar-flexBox u-flex-justifyCenter">
-          <h1 className="NavBar-title">tomadto/web</h1>
+          <h1 className="NavBar-title u-textCenter">tomadto/web</h1>
           {/* <div className="NavBar-link">home</div> */}
           {/* <div className="NavBar-link">projects</div> */}
           {/* <div className="NavBar-link">resume</div> */}

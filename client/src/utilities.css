@@ -121,6 +121,25 @@ p {
   display: grid;
   grid-template-rows: auto 1fr auto;
 }
+.u-darkBg {
+  width: calc(0.4 * 1920px);
+  padding: 0 var(--l);
+  margin: var(--s) 0;
+  border: 2px solid var(--theme-grey);
+  border-radius: var(--m);
+  background-color: #fbedc8;
+  height: 90vh;
+  flex: 0 0 auto;
+}
+
+.u-bg {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  z-index: -1;
+  display: flex;
+}
+
 @media screen and (max-width: 850px), (max-aspect-ratio: 10/16) {
   :root {
     font-size: 24px;
