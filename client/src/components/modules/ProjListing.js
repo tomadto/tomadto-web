@@ -35,7 +35,7 @@ const ProjListing = [
       {
         external: true,
         linkName: "GitHub",
-        linkPath: "https://github.com/weblab-class/studygarden",
+        linkPath: "https://github.com/tomadto/studygarden",
         key: Math.random(),
       },
       {
