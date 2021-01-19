@@ -38,6 +38,7 @@
   --xl: 2rem;
   --xxl: 2.5rem;
   --xxxl: 3rem;
+  font-size: 16px;
 }
 body {
   margin: 0;
@@ -119,4 +120,9 @@ p {
   min-height: 100%;
   display: grid;
   grid-template-rows: auto 1fr auto;
+}
+@media screen and (max-width: 850px), (max-aspect-ratio: 10/16) {
+  :root {
+    font-size: 24px;
+  }
 }

@@ -43,8 +43,8 @@
   background-color: var(--black);
   /* background-color: var(--theme-grey); */
   /* background-color: var(--secondary); */
-  width: calc(24px * 16);
-  height: calc(24px * 9);
+  width: calc(1.5rem * 16);
+  height: calc(1.5rem * 9);
   margin: 8px;
   overflow: hidden;
 }

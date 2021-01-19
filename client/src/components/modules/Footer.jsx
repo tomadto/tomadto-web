@@ -8,8 +8,8 @@ const Footer = (props) => {
       <footer className="Footer-container">
         <div className="u-emptySpace" />
         <div>made by tomadto 👀 </div>
-        <div>email</div>
-        <div>linkedin</div>
+        <div>email: tadebiyi (at) mit.edu</div>
+        <a href="https://www.linkedin.com/in/tomad-to/">linkedin</a>
         {/* <div>twitter</div> */}
         <div className="u-emptySpace" />
       </footer>
