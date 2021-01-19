@@ -33,3 +33,14 @@
 .About-container li {
   line-height: 1.5;
 }
+
+@media screen and (max-width: 850px), (max-aspect-ratio: 10/16) {
+  .About-contentContainer {
+    max-width: 75vw;
+  }
+  .About-container img {
+    /* max-width: 75vw; */
+    float: none;
+    position: relative;
+  }
+}
