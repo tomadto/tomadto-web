@@ -7,7 +7,11 @@ import "../../utilities.css";
 const Play = (props) => {
   return (
     <Home place="play">
-      <div>coming soon...</div>
+      <div className="u-flex">
+        <div className="u-emptySpace" />
+        <div>coming soon...</div>
+        <div className="u-emptySpace" />
+      </div>
     </Home>
   );
 };
