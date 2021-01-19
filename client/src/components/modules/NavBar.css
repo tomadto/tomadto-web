@@ -37,7 +37,7 @@
 }
 
 .NavBar-transparent {
-  background: var(--primary);
+  background: transparent;
   /* font-size: var(--l); */
 }
 .NavBar-sticky {

@@ -19,7 +19,7 @@
   flex-wrap: wrap;
   overflow-y: scroll;
   /* white-space: nowrap; */
-  height: 75vh;
+  /* height: 75vh; */
 }
 
 /* Works on Chrome, Edge, and Safari */
@@ -40,13 +40,19 @@
 
 .Projects-card {
   text-decoration: none;
-  background-color: var(--black);
+  background-color: transparent;
   /* background-color: var(--theme-grey); */
   /* background-color: var(--secondary); */
-  width: calc(1.5rem * 16);
-  height: calc(1.5rem * 9);
+  width: calc(2rem * 16);
+  height: calc(2rem * 9);
   margin: 8px;
   overflow: hidden;
+  transition: box-shadow 0.5s;
+  /* animation: fadeIn ease 0.5s;
+  -webkit-animation: fadeIn ease 0.5s;
+  -moz-animation: fadeIn ease 0.5s;
+  -o-animation: fadeIn ease 0.5s;
+  -ms-animation: fadeIn ease 0.5s; */
 }
 .Projects-cardInner {
   background-color: #8eb8e5ee;
@@ -101,8 +107,64 @@
   transition: left 0.5s, width 0.5s, color 0.5s 0.3s;
 }
 
+.Projects-card:hover,
+.Projects-card:focus,
+.Projects-card:active {
+  box-shadow: 3px 6px 12px 0px rgba(0, 0, 0, 0.15);
+  transition: box-shadow 0.5s;
+}
+
 @media screen and (max-width: 850px), (max-aspect-ratio: 10/16) {
   .Projects-cardContainer {
     grid-template-columns: 1fr;
+  }
+  .Projects-card {
+    width: calc(1.5rem * 16);
+    height: calc(1.5rem * 9);
+  }
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-moz-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-o-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-ms-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
   }
 }

@@ -5,10 +5,11 @@ import "../../utilities.css";
 import "./Home.css";
 // import "normalize.css";button>
 
-import About from "../modules/About.jsx";
-import Projects from "../modules/Projects.jsx";
+// import About from "../modules/About.jsx";
+// import Projects from "../modules/Projects.jsx";
+// import Classes from "../modules/Classes.jsx";
 import NotFound from "../pages/NotFound.js";
-import lorem from "../modules/lorem.json";
+// import lorem from "../modules/lorem.json";
 
 const Home = (props) => {
   const pageToNumber = (page) => {
@@ -16,18 +17,20 @@ const Home = (props) => {
       return 0;
     } else if (page === "projects") {
       return 1;
-    } else if (page === "fun") {
+    } else if (page === "classes") {
       return 2;
+    } else if (page === "play") {
+      return 3;
     } else {
       return "NotFound";
     }
   };
-  const pages = [<About />, <Projects />];
+  // const pages = [<About />, <Projects />];
   const [content, selectContent] = useState(() => {
     if (props.place) {
       return pageToNumber(props.place);
     } else {
-      return 0;
+      return -1;
     }
   });
 
@@ -58,18 +61,24 @@ const Home = (props) => {
               projects
             </Link>
             <Link
-              to="/fun"
+              to="/classes"
               className={`${content === 2 ? "u-textDark " : "u-textGrey "}u-textCenter Home-link`}
-              onClick={handleClick}
             >
-              fun
-            </Link>
-            <Link to="/fun" className="u-textGrey u-textCenter Home-link">
-              resume
-            </Link>
-            <Link to="/fun" className="u-textGrey u-textCenter Home-link">
               classes
             </Link>
+            <Link
+              to="/play"
+              className={`${content === 3 ? "u-textDark " : "u-textGrey "}u-textCenter Home-link`}
+              onClick={handleClick}
+            >
+              play
+            </Link>
+            <a
+              href="https://tomadto.s-ul.eu/content/7yV6k5WS"
+              className="u-textGrey u-textCenter Home-link"
+            >
+              resume
+            </a>
           </div>
           <div className="u-emptySpace" />
         </div>

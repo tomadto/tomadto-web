@@ -5,6 +5,8 @@ import { Router } from "@reach/router";
 import NotFound from "./pages/NotFound.js";
 import Home from "./pages/Home.js";
 import About from "./modules/About.jsx";
+import Classes from "./modules/Classes.jsx";
+import Play from "./modules/Play.jsx";
 import Projects from "./modules/Projects.jsx";
 import Landing from "./pages/Landing.js";
 import NavBar from "./modules/NavBar.js";
@@ -43,6 +45,8 @@ const App = () => {
         <About exact path="/" />
         <About path="/about" />
         <Projects path="/projects" />
+        <Classes path="/classes" />
+        <Play path="/play" />
 
         <NotFound default />
       </Router>

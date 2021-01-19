@@ -14,10 +14,9 @@ const About = (props) => {
         <div className="u-emptySpace" />
         <div className="About-contentContainer">
           <section>
-            <h2 className="u-textCenter">Welcome to my Website!</h2>
+            <h2 className="u-textCenter">Hello, I'm Tommy Adebiyi.</h2>
             <img src="https://tomadto.s-ul.eu/content/yWO6vpgN" alt="It's me tommy" />
             <p>
-              I'm Tommy Adebiyi! I sometimes go by <span className="u-bold">tomadto</span> online.
               I'm a senior at MIT studying Mechanical Engineering & Design ("2A-Design"). I like
               making, coding, trying new things and all things design.
             </p>
@@ -62,9 +61,6 @@ const About = (props) => {
             </ul>
           </section>
           <section>
-            <h4>
-              This website was coded in <a href="https://reactjs.org">React!</a>
-            </h4>
             <p></p>
           </section>
           <div className="u-flex">
