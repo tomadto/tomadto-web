@@ -1,6 +1,5 @@
 import React, { useState, useEffect, useCallback } from "react";
 
-// import { BrowserRouter, Route, Switch, Redirect } from "react-router-dom";
 import { Router } from "@reach/router";
 import NotFound from "./pages/NotFound.js";
 import Home from "./pages/Home.js";

@@ -20,6 +20,7 @@
   float: right;
   text-align: center;
   margin: 0.5rem;
+  margin-left: 1rem;
   margin-top: 0.25rem;
   box-shadow: 3px 6px 12px 0px rgba(0, 0, 0, 0.15);
   border-radius: var(--xs);
@@ -48,5 +49,12 @@
     /* max-width: 75vw; */
     float: none;
     position: relative;
+    margin-bottom: 1.5rem;
+  }
+  .About-contentContainerImg {
+    display: flex;
+
+    max-width: 100%;
+    justify-content: center;
   }
 }
