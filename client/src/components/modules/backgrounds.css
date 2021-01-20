@@ -1,11 +1,11 @@
 .b-spartan {
-  background-image: url("https://tomadto.s-ul.eu/content/NMzSf8Hu");
+  background-image: url("https://tomadto.s-ul.eu/content/LbG8lmBR");
   background-size: contain;
 }
 .b-studygarden {
   background-image: url("https://tomadto.s-ul.eu/content/bkwv7n3c");
-  background-size: contain;
-  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-y: -1px;
 }
 .b-2007 {
   background-image: url("https://tomadto.s-ul.eu/content/IUPaFby0");

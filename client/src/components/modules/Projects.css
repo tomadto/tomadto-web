@@ -98,24 +98,7 @@
   width: auto;
   font-size: var(--m);
 }
-.Projects-cardInner:hover,
-.Projects-cardInner:focus,
-.Projects-cardInner:active,
-.Projects-card:hover .Projects-cardInner,
-.Projects-card:focus .Projects-cardInner,
-.Projects-card:active .Projects-cardInner {
-  left: 0%;
-  width: 100%;
-  color: var(--text-dark);
-  transition: left 0.5s, width 0.5s, color 0.5s 0.3s;
-}
 
-.Projects-card:hover,
-.Projects-card:focus,
-.Projects-card:active {
-  box-shadow: 2px 6px 16px 0px rgba(0, 0, 0, 0.15);
-  transition: box-shadow 0.5s;
-}
 .Projects-construction {
   padding: 0 64px;
 }
@@ -127,7 +110,38 @@
   width: max-content;
   background-color: var(--medgrey);
   border-radius: 4px;
+  transition: background-color 0.2s, color 0.2s;
 }
+
+.Projects-cardInner:hover,
+.Projects-cardInner:focus,
+.Projects-cardInner:active,
+.Projects-card:hover .Projects-cardInner,
+.Projects-card:focus .Projects-cardInner,
+.Projects-card:active .Projects-cardInner {
+  left: 0%;
+  width: 100%;
+  color: var(--text-dark);
+  transition: left 0.5s, width 0.5s, color 0.5s 0.3s;
+}
+.Projects-card:hover .Projects-date,
+.Projects-card:focus .Projects-date,
+.Projects-card:active .Projects-date {
+  background-color: transparent;
+  color: transparent;
+  -moz-user-select: none;
+  user-select: none;
+  -webkit-user-select: none;
+  transition: background-color 0.2s, color 0.2s;
+}
+
+.Projects-card:hover,
+.Projects-card:focus,
+.Projects-card:active {
+  box-shadow: 2px 6px 16px 0px rgba(0, 0, 0, 0.15);
+  transition: box-shadow 0.5s;
+}
+
 @media screen and (max-width: 850px), (max-aspect-ratio: 10/16) {
   .Projects-cardContainer {
     grid-template-columns: 1fr;
