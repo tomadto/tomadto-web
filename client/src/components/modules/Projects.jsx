@@ -38,6 +38,7 @@ const Projects = (props) => {
               tabIndex="0"
               aria-haspopup="true"
             >
+              <div className="Projects-date">{card.date}</div>
               <div className="Projects-cardInner " role="button" tabIndex="0" aria-haspopup="true">
                 <h3 className="Projects-cardInnerTitle">{card.title}</h3>
                 <p className="Projects-cardInnerText">

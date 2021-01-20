@@ -99,7 +99,7 @@ const ProjListing = [
   },
   {
     title: "Custom Chair",
-    Date: "Dec 2019",
+    date: "Dec 2019",
     text: "4.500, *Design Computation*, final project. Designed in Rhino 6, rendered in 3DS Max",
     link: [{ linkName: "coming soon", linkPath: "/projects", key: Math.random() }],
     bgClass: "b-4500",
@@ -115,7 +115,7 @@ const ProjListing = [
   },
   {
     title: "Developing trials for testing spacesuit IVA gloves",
-    date: "Sep 2019",
+    date: "Aug 2019",
     text: "*description coming soon*",
     link: [{ linkName: "coming soon", linkPath: "/projects", key: Math.random() }],
     bgClass: "b-buttonbox",
