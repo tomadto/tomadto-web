@@ -60,6 +60,12 @@ const Home = (props) => {
             >
               projects
             </Link>
+            <a
+              href="https://tomadto.s-ul.eu/content/7yV6k5WS"
+              className="u-textGrey u-textCenter Home-link"
+            >
+              resume
+            </a>
             <Link
               to="/classes"
               className={`${content === 2 ? "u-textDark " : "u-textGrey "}u-textCenter Home-link`}
@@ -73,12 +79,6 @@ const Home = (props) => {
             >
               play
             </Link>
-            <a
-              href="https://tomadto.s-ul.eu/content/7yV6k5WS"
-              className="u-textGrey u-textCenter Home-link"
-            >
-              resume
-            </a>
           </div>
           <div className="u-emptySpace" />
         </div>

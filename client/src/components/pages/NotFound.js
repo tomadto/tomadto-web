@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import Home from "./Home.js";
-
+import "../../utilities.css";
 class NotFound extends Component {
   constructor(props) {
     super(props);
@@ -9,8 +9,11 @@ class NotFound extends Component {
   render() {
     return (
       <Home>
-        <h1>404 Not Found</h1>
-        <p>The page you requested couldn't be found.</p>
+        <div className="u-flex">
+          <div className="u-emptySpace" />
+          <h1>404 Not Found :(</h1>
+          <div className="u-emptySpace" />
+        </div>
       </Home>
     );
   }
