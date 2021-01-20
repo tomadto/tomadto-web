@@ -18,7 +18,7 @@ const About = (props) => {
             <img src="https://tomadto.s-ul.eu/content/yWO6vpgN" alt="It's me tommy" />
             <p>
               I'm a senior at MIT studying Mechanical Engineering & Design ("2A-Design"). I like
-              making, coding, trying new things and all things design.
+              making, coding, gaming, trying new things and all things design.
             </p>
             <p></p>
           </section>
