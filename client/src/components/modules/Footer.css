@@ -24,7 +24,7 @@
   flex: 0 0 auto;
 }
 .Footer-containerBottomContent {
-  margin: 10px 0;
+  margin: 10px 0 100px;
   width: fit-content;
   justify-self: center;
 }

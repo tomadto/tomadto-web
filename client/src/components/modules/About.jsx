@@ -61,11 +61,21 @@ const About = (props) => {
             </ul>
           </section>
           <section>
-            <p></p>
+            <p>
+              <span className="u-it">
+                This site is built in{" "}
+                <a href="https://reactjs.org" className="u-bold">
+                  React
+                </a>{" "}
+                and a work in progress. Check out the repo on{" "}
+                <a href="https://github.com/tomadto/tomadto-web" className="u-bold">
+                  GitHub!
+                </a>
+              </span>
+            </p>
           </section>
           <div className="u-flex">
             <div className="u-emptySpace" />
-
             <div className="u-emptySpace" />
           </div>
         </div>

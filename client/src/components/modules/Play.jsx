@@ -9,7 +9,7 @@ const Play = (props) => {
     <Home place="play">
       <div className="u-flex">
         <div className="u-emptySpace" />
-        <div>coming soon...</div>
+        <div>🚧 coming soon... 🚧</div>
         <div className="u-emptySpace" />
       </div>
     </Home>

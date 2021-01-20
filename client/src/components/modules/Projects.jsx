@@ -16,6 +16,17 @@ const Projects = (props) => {
   const [cardContent, setCardContent] = useState(ProjListing);
   return (
     <Home place="projects">
+      <div className="u-flex">
+        <div className="u-emptySpace" />
+        <div className="u-textCenter Projects-construction">
+          🚧 As this site continues development, feel free to{" "}
+          <a className="u-bold" href="https://tomadto.s-ul.eu/content/x5AlJQjG">
+            view the last version of my portfolio here.
+          </a>{" "}
+          🚧
+        </div>
+        <div className="u-emptySpace" />
+      </div>
       <div className="Projects-container">
         <div className="u-emptySpace" />
         <div className="Projects-cardContainer">
