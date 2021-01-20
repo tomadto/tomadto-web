@@ -5,7 +5,7 @@
   width: 100%;
   display: flex;
   flex-direction: column;
-  margin: 16px 0;
+  margin: 16px 0 160px;
   padding: 8px 0;
   /* position: absolute; */
   top: calc(100%-50px);
@@ -20,11 +20,11 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-auto-rows: 1fr;
-  gap: 20px;
+  gap: 0 20px;
   flex: 0 0 auto;
 }
 .Footer-containerBottomContent {
-  margin: 10px 0 100px;
+  margin: 10px 0 0;
   width: fit-content;
   justify-self: center;
 }

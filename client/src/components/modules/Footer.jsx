@@ -26,6 +26,9 @@ const Footer = (props) => {
             <a className="Footer-containerBottomContent" href="mailto:tadebiyi@mit.edu">
               email
             </a>
+            <a className="Footer-containerBottomContent" href="mailto:tadebiyi@mit.edu">
+              github
+            </a>
           </div>
           <div className="u-emptySpace" />
         </div>

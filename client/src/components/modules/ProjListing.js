@@ -49,6 +49,34 @@ const ProjListing = [
     key: Math.random(),
   },
   {
+    title: "VCaR, a 2030 Museum Experience",
+    date: "Dec 2019",
+    text: `2.s972 (Making Virtual Reality and Immersive Experiences) project. Made in Unity/SteamVR.  
+      *Combustion engines have moved from being on roads to being in museums. Our VR experience is a museum experience that we envision for 2030...*`,
+    link: [
+      {
+        external: true,
+        linkName: "Writeup",
+        linkPath: "https://tomadto.s-ul.eu/content/emni5xLS",
+        key: Math.random(),
+      },
+      {
+        external: true,
+        linkName: "Final Presentation",
+        linkPath: "https://tomadto.s-ul.eu/content/9AJ8p5yw",
+        key: Math.random(),
+      },
+      {
+        external: true,
+        linkName: "Final Video",
+        linkPath: "https://tomadto.s-ul.eu/content/MGLHnAdn",
+        key: Math.random(),
+      },
+    ],
+    bgClass: "b-vcar",
+    key: Math.random(),
+  },
+  {
     title: "Analyzing Player Improvement in Rhythm Games",
     date: "Dec 2019",
     text: "2.671 (Measurement and Instrumentation) “Go Forth and Measure” research project.",
