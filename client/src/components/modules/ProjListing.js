@@ -17,9 +17,9 @@ const ProjListing = [
         key: Math.random(),
       },
     ],
-    more: {
-      path: "/projects/spartan",
-    },
+    // more: {
+    //   path: "/projects/spartan",
+    // },
     bgClass: "b-spartan",
     key: Math.random(),
   },
