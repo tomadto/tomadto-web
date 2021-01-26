@@ -1,0 +1,50 @@
+.Classes-container {
+  display: flex;
+  width: 100%;
+}
+.Classes-year {
+  display: grid;
+  padding: 8px 16px;
+  grid-template-columns: 1fr 1fr 0.5fr;
+  grid-auto-flow: row dense;
+  gap: 10px 10px;
+  grid-auto-rows: 1fr;
+  justify-content: center;
+
+  /* overflow-y: scroll; */
+}
+.Classes-contentContainer {
+  max-width: calc(0.4 * 1920px);
+}
+
+/* .Classes-semester {
+   display: grid;
+  padding: 8px 16px;
+  grid-template-columns: repeat(3, 1fr);
+  grid-auto-flow: row;
+  gap: 10px 10px;
+  grid-auto-rows: 1fr;
+  justify-content: center;
+  flex: 0 0 auto;
+  flex-wrap: wrap; 
+} */
+
+.Classes-container p {
+  margin: 0.75em auto;
+}
+
+@media screen and (max-width: 850px), (max-aspect-ratio: 10/16) {
+  .Classes-year {
+    grid-template-columns: 1fr;
+  }
+  /* .Projects-cardInner {
+    top: -17%;
+  }
+  .Projects-card {
+    width: calc(1.5rem * 16);
+    height: calc(1.5rem * 9);
+  }
+  .Projects-date {
+    top: 83%;
+  } */
+}

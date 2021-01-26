@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useCallback } from "react";
-// import { Link } from "react-router-dom";
 import { Link } from "@reach/router";
 import ReactMarkdown from "react-markdown";
+// import Modal from "react-modal";
 
 import Home from "../pages/Home.js";
 import "../../utilities.css";
@@ -13,6 +13,10 @@ import ProjListing from "./ProjListing.js";
 //mobile friendliness https://stackoverflow.com/a/55288649
 
 const Projects = (props) => {
+  //   const [modalIsOpen, setIsOpen] = useState(false);
+  //   const handleClick = () => {
+  //     setIsOpen(!modalIsOpen);
+  //   };
   const [cardContent, setCardContent] = useState(ProjListing);
   return (
     <Home place="projects">
@@ -41,23 +45,32 @@ const Projects = (props) => {
               <div className="Projects-date">{card.date}</div>
               <div className="Projects-cardInner " role="button" tabIndex="0" aria-haspopup="true">
                 <h3 className="Projects-cardInnerTitle">{card.title}</h3>
-                <p className="Projects-cardInnerText">
-                  <ReactMarkdown>{card.text}</ReactMarkdown>
-                </p>
+                <ReactMarkdown className="Projects-cardInnerText">{card.text}</ReactMarkdown>
                 <div className="Projects-cardInnerLink">
-                  {card.link
-                    ? card.link.map((link) =>
-                        link.external ? (
-                          <a href={link.linkPath} role="button" tabIndex="0" aria-haspopup="true">
-                            {link.linkName}
-                          </a>
-                        ) : (
-                          <Link to={link.linkPath} role="button" tabIndex="0" aria-haspopup="true">
-                            {link.linkName}
-                          </Link>
-                        )
+                  {card.link &&
+                    card.link.map((link) =>
+                      link.external ? (
+                        <a href={link.linkPath} role="button" tabIndex="0" aria-haspopup="true">
+                          {link.linkName}
+                        </a>
+                      ) : (
+                        <Link to={link.linkPath} role="button" tabIndex="0" aria-haspopup="true">
+                          {link.linkName}
+                        </Link>
                       )
-                    : ""}
+                    )}
+                  {card.more && (
+                    <Link
+                      to={card.more.path}
+                      className="u-boldAlt"
+                      style={{ color: "var(--text-dark)" }}
+                    >
+                      {" "}
+                      read more ...
+                    </Link>
+                  )}
+                  {/* <button onClick={handleClick}>click</button> */}
+                  {/* <Modal isOpen={modalIsOpen} onRequestClose={handleClick}></Modal> */}
                 </div>
               </div>
             </div>

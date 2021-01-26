@@ -72,10 +72,12 @@ p {
 }
 
 .u-bold {
-  font-weight: 600;
+  font-weight: 700;
   color: var(--secondary);
 }
-
+.u-boldAlt {
+  font-weight: 700;
+}
 .u-textCenter {
   text-align: center;
 }
