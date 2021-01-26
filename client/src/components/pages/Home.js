@@ -61,7 +61,7 @@ const Home = (props) => {
               projects
             </Link>
             <a
-              href="https://tomadto.s-ul.eu/content/7yV6k5WS"
+              href="https://tomadto.s-ul.eu/content/O701JBiU"
               className="u-textGrey u-textCenter Home-link"
             >
               resume
