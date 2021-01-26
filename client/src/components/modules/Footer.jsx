@@ -26,7 +26,7 @@ const Footer = (props) => {
             <a className="Footer-containerBottomContent" href="mailto:tadebiyi@mit.edu">
               email
             </a>
-            <a className="Footer-containerBottomContent" href="mailto:tadebiyi@mit.edu">
+            <a className="Footer-containerBottomContent" href="https://github.com/tomadto/">
               github
             </a>
           </div>
