@@ -29,13 +29,7 @@ const About = (props) => {
               <h3>What I've been up to...</h3>
               <ul>
                 <li>making this website!</li>
-                <li>
-                  staffing{" "}
-                  <a href="https://weblab.mit.edu" className="u-bold">
-                    web.lab
-                  </a>
-                  , a web development class and competition.
-                </li>
+
                 <li>
                   staying at home, playing games, sleeping (kinda...), and taking care of myself. 😊
                 </li>
@@ -45,7 +39,13 @@ const About = (props) => {
             <section>
               <h3>What I've recently done...</h3>
               <ul>
-                <li>survived 2020. 😰</li>
+                <li>
+                  staffed{" "}
+                  <a href="https://weblab.mit.edu" className="u-bold">
+                    web.lab
+                  </a>
+                  , a web development class and competition.
+                </li>
                 <li>
                   <a
                     href="https://s009kindness.com/images/productSheets/red_spartan_product_sheet_sm.pdf"
@@ -59,7 +59,12 @@ const About = (props) => {
                   </a>{" "}
                   red team!
                 </li>
-
+                <li>
+                  <a href="https://tomadto.s-ul.eu/content/ajSO5m3n" className="u-bold">
+                    made a cool jacket
+                  </a>{" "}
+                  that makes configurable music and noise as you move and dance with it.
+                </li>
                 <li>said goodbye to next house...</li>
               </ul>
             </section>

@@ -24,6 +24,21 @@ const ProjListing = [
     key: Math.random(),
   },
   {
+    title: "Wearemin",
+    date: "Dec 2020",
+    text: "Clothing that creates music from your movements and dance moves.",
+    link: [
+      {
+        external: true,
+        linkName: "Video",
+        linkPath: "https://tomadto.s-ul.eu/content/ajSO5m3n",
+        key: Math.random(),
+      },
+    ],
+    bgClass: "b-wearemin",
+    key: Math.random(),
+  },
+  {
     title: "study garden",
     date: "Jan 2020",
     text:

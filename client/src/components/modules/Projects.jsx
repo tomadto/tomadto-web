@@ -50,7 +50,13 @@ const Projects = (props) => {
                   {card.link &&
                     card.link.map((link) =>
                       link.external ? (
-                        <a href={link.linkPath} role="button" tabIndex="0" aria-haspopup="true">
+                        <a
+                          href={link.linkPath}
+                          role="button"
+                          tabIndex="0"
+                          aria-haspopup="true"
+                          target="_blank"
+                        >
                           {link.linkName}
                         </a>
                       ) : (

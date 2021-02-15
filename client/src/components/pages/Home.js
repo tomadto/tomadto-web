@@ -62,6 +62,7 @@ const Home = (props) => {
             </Link>
             <a
               href="https://tomadto.s-ul.eu/content/O701JBiU"
+              target="_blank"
               className="u-textGrey u-textCenter Home-link"
             >
               resume
