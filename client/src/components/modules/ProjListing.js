@@ -142,7 +142,7 @@ const ProjListing = [
   {
     title: "Flipstream",
     date: "May 2019",
-    text: "Final Robot for MIT 2.007, *Design and Manufacturing I*.",
+    text: "Final competition robot for MIT 2.007, *Design and Manufacturing I*.",
     link: [{ linkName: "coming soon", linkPath: "/projects", key: Math.random() }],
     bgClass: "b-2007",
     key: Math.random(),
