@@ -60,7 +60,7 @@ const App = () => {
 };
 
 const Erbs = (props) => {
-  window.location.href = "https://tomadto-erbs.netlify.app";
+  window.location.href = "https://erbs.tomadto.site/";
   return <h1 class="u-textCenter">redirecting :)</h1>;
 };
 export default App;
