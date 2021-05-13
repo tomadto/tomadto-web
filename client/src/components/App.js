@@ -51,7 +51,7 @@ const App = () => {
         <Projects path="/projects" />
         <Classes path="/classes" />
         <Play path="/play" />
-
+        <Erbs path="/erbs" />
         <NotFound default />
       </Router>
       <Footer />
@@ -59,4 +59,8 @@ const App = () => {
   );
 };
 
+const Erbs = (props) => {
+  window.location.href = "https://tomadto-erbs.netlify.app";
+  return <h1 class="u-textCenter">redirecting :)</h1>;
+};
 export default App;
