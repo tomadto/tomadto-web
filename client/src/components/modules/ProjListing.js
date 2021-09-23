@@ -1,5 +1,21 @@
 const ProjListing = [
   {
+    title: "Eternal Return Data Visualization",
+    date: "May 2021",
+    text:
+      "Data visualization of player statistics in the game Eternal Return (free on steam!) Made in p5.js as a part of 4.032: Design Studio: Information and Visualization",
+    link: [
+      {
+        external: true,
+        linkName: "Website",
+        linkPath: "https://erbs.tomadto.site",
+        key: Math.random(),
+      },
+    ],
+    bgClass: "b-erbs",
+    key: Math.random(),
+  },
+  {
     title: "Spartan",
     date: "Dec 2020",
     text: `A boxing training device for intermediate-level boxers. Developed as a part of 2.s009, *Explorations in Product Design*.`,

@@ -20,25 +20,30 @@ const About = (props) => {
           <div className="About-contentContainerBody">
             <section>
               <p>
-                I'm a senior at MIT studying Mechanical Engineering & Design. I like making, coding,
-                gaming, trying new things and all things design.
+                I'm a recent graduate of MIT in Mechanical Engineering & Design. I like making,
+                coding, gaming, trying new things and all things design.
               </p>
               <p></p>
             </section>
             <section>
               <h3>What I've been up to...</h3>
               <ul>
-                <li>making this website!</li>
+                <li>maintaining this website!</li>
 
                 <li>
-                  staying at home, playing games, sleeping (kinda...), and taking care of myself. 😊
+                  staffing{" "}
+                  <a href="http://web.mit.edu/2.009/www/index.html" className="u-bold">
+                    2.009: Product Engineering Processes
+                  </a>
+                  , a senior-level MechE capstone class.
                 </li>
-                <li>preparing for my 8th and last semester at MIT.</li>
+                <li>staying extra safe from covid :'(.</li>
               </ul>
             </section>
             <section>
               <h3>What I've recently done...</h3>
               <ul>
+                <li>graduated from MIT!!!</li>
                 <li>
                   staffed{" "}
                   <a href="https://weblab.mit.edu" className="u-bold">
