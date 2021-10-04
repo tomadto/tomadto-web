@@ -3,7 +3,7 @@ const ProjListing = [
     title: "Eternal Return Data Visualization",
     date: "May 2021",
     text:
-      "Data visualization of player statistics in the game Eternal Return (free on steam!) Made in p5.js as a part of 4.032: Design Studio: Information and Visualization",
+      "Data visualization of player statistics in the game Eternal Return (free on steam!) Made in p5.js as a part of a class at MIT (4.032: Design Studio: Information and Visualization).",
     link: [
       {
         external: true,
@@ -28,7 +28,7 @@ const ProjListing = [
       },
       {
         external: true,
-        linkName: "2s009 website",
+        linkName: "2.s009 2020 website",
         linkPath: "https://s009kindness.com/",
         key: Math.random(),
       },
@@ -90,7 +90,7 @@ const ProjListing = [
     link: [
       {
         external: true,
-        linkName: "Writeup",
+        linkName: "Brochure",
         linkPath: "https://tomadto.s-ul.eu/content/emni5xLS",
         key: Math.random(),
       },
@@ -150,8 +150,8 @@ const ProjListing = [
   {
     title: "Developing trials for testing spacesuit IVA gloves",
     date: "Aug 2019",
-    text: "*description coming soon*",
-    link: [{ linkName: "coming soon", linkPath: "/projects", key: Math.random() }],
+    text: "Undergraduate research in the Human Systems Lab in MIT AeroAstro.",
+    //link: [{ linkName: "coming soon", linkPath: "/projects", key: Math.random() }],
     bgClass: "b-buttonbox",
     key: Math.random(),
   },
@@ -159,7 +159,14 @@ const ProjListing = [
     title: "Flipstream",
     date: "May 2019",
     text: "Final competition robot for MIT 2.007, *Design and Manufacturing I*.",
-    link: [{ linkName: "coming soon", linkPath: "/projects", key: Math.random() }],
+    link: [
+      {
+        external: true,
+        linkName: "more info",
+        linkPath: "https://tomadto.s-ul.eu/content/x5AlJQjG#page=3",
+        key: Math.random(),
+      },
+    ],
     bgClass: "b-2007",
     key: Math.random(),
   },
@@ -168,7 +175,14 @@ const ProjListing = [
     title: "MIT Motorsports",
     date: "Jun 2018",
     text: "Aero subteam member, worked on the diffuser/underbody aero",
-    link: [{ linkName: "coming soon", linkPath: "/projects", key: Math.random() }],
+    link: [
+      {
+        external: true,
+        linkName: "more info",
+        linkPath: "https://tomadto.s-ul.eu/content/x5AlJQjG#page=4",
+        key: Math.random(),
+      },
+    ],
     bgClass: "b-fsae",
     key: Math.random(),
   },
@@ -187,6 +201,12 @@ const ProjListing = [
         external: true,
         linkName: "Presentation!",
         linkPath: "https://vimeo.com/271887194",
+        key: Math.random(),
+      },
+      {
+        external: true,
+        linkName: "more info",
+        linkPath: "https://tomadto.s-ul.eu/content/x5AlJQjG#page=6",
         key: Math.random(),
       },
     ],

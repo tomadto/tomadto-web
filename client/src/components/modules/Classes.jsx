@@ -11,7 +11,7 @@ const Classes = (props) => {
       {" "}
       <div className="u-flex">
         <div className="u-emptySpace" />
-        <div>🚧 Under construction! Class galleries coming soon. 🚧</div>
+        {/*<div>🚧 Under construction! Class galleries coming soon. 🚧</div>*/}
         <div className="u-emptySpace" />
       </div>
       <div className="Classes-container">
@@ -29,7 +29,9 @@ const Classes = (props) => {
             </section>
             <section className="Classes-semester">
               {" "}
-              <h3>Spring</h3> <p className="u-it">in progress</p>
+              <h3>Spring</h3> <p>2.679: Electronics for Mechanical Systems</p>
+              <p>21H.154: Inventing the Samurai</p>
+              <p>4.032: Design Studio: Information and Visualization</p>
             </section>
             <section className="Classes-semester">
               {" "}
