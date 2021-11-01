@@ -58,7 +58,7 @@ const ProjListing = [
     title: "study garden",
     date: "Jan 2020",
     text:
-      "A study tracking website where plants grow as the user spends more time studying. Developed as a part of web.lab 2020.",
+      "A study tracking website where plants grow as the user spends more time studying. Developed as a part of web.lab 2020. Personally did all of the back end and some of the front-end/UI, especially on the study page. Developed using React, node.js+express, and MongoDB+Mongoose.",
     link: [
       {
         external: true,
