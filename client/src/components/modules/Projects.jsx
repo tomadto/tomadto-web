@@ -57,7 +57,7 @@ const Projects = (props) => {
                           aria-haspopup="true"
                           target="_blank"
                         >
-                          {link.linkName}
+                          <p className="Projects-cardInnerLinkText">{link.linkName}</p>
                         </a>
                       ) : (
                         <Link to={link.linkPath} role="button" tabIndex="0" aria-haspopup="true">

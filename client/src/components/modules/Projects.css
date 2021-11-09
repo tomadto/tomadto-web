@@ -156,6 +156,9 @@
   .Projects-date {
     top: 83%;
   }
+  .Projects-cardInnerLinkText {
+    margin-top: 0.1rem;
+  }
 }
 
 @keyframes fadeIn {

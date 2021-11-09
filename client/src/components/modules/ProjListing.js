@@ -47,7 +47,7 @@ const ProjListing = [
   {
     title: "Spartan",
     date: "Dec 2020",
-    text: `A boxing training device for intermediate-level boxers. Developed as a part of 2.s009, *Explorations in Product Design*.`,
+    text: `A boxing training device for intermediate-level boxers. Developed as a part of 2.s009, *Explorations in Product Design*. Co-System Integrator`,
     link: [
       {
         external: true,
@@ -59,6 +59,12 @@ const ProjListing = [
         external: true,
         linkName: "2.s009 2020 website",
         linkPath: "https://s009kindness.com/",
+        key: Math.random(),
+      },
+      {
+        external: true,
+        linkName: "additional info",
+        linkPath: "https://tomadto.s-ul.eu/content/x5AlJQjG#page=2",
         key: Math.random(),
       },
     ],
@@ -164,7 +170,7 @@ const ProjListing = [
     title: "Custom Chair",
     date: "Dec 2019",
     text: "4.500, *Design Computation*, final project. Designed in Rhino 6, rendered in 3DS Max",
-    link: [{ linkName: "coming soon", linkPath: "/projects", key: Math.random() }],
+    //link: [{ linkName: "coming soon", linkPath: "/projects", key: Math.random() }],
     bgClass: "b-4500",
     key: Math.random(),
   },
@@ -191,7 +197,13 @@ const ProjListing = [
     link: [
       {
         external: true,
-        linkName: "more info",
+        linkName: "Robot overview",
+        linkPath: "https://tomadto.s-ul.eu/content/SYaYkrmG",
+        key: Math.random(),
+      },
+      {
+        external: true,
+        linkName: "read more",
         linkPath: "https://tomadto.s-ul.eu/content/x5AlJQjG#page=3",
         key: Math.random(),
       },
@@ -207,7 +219,7 @@ const ProjListing = [
     link: [
       {
         external: true,
-        linkName: "more info",
+        linkName: "read more",
         linkPath: "https://tomadto.s-ul.eu/content/x5AlJQjG#page=4",
         key: Math.random(),
       },
@@ -234,7 +246,7 @@ const ProjListing = [
       },
       {
         external: true,
-        linkName: "more info",
+        linkName: "read more",
         linkPath: "https://tomadto.s-ul.eu/content/x5AlJQjG#page=6",
         key: Math.random(),
       },
