@@ -77,7 +77,7 @@
   padding: var(--s);
   font-weight: 600;
   line-height: 1.25;
-  font-size: 24px;
+  font-size: var(--l);
 }
 
 .Projects-cardInnerText {
@@ -147,17 +147,23 @@
     grid-template-columns: 1fr;
   }
   .Projects-cardInner {
-    top: -17%;
+    top: -16%;
   }
   .Projects-card {
     width: calc(1.5rem * 16);
     height: calc(1.5rem * 9);
   }
   .Projects-date {
-    top: 83%;
+    top: 84%;
   }
   .Projects-cardInnerLinkText {
     margin-top: 0.1rem;
+  }
+  .Projects-cardInnerTitle {
+    font-size: var(--m);
+  }
+  .Projects-cardInner p {
+    font-size: 0.9rem;
   }
 }
 

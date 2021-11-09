@@ -32,7 +32,7 @@ const ProjListing = [
     title: "Eternal Return Data Visualization",
     date: "May 2021",
     text:
-      "Data visualization of player statistics in the game Eternal Return (free on steam!) Made in p5.js as a part of a class at MIT (4.032: Design Studio: Information and Visualization).",
+      "Data visualization of player statistics in the game Eternal Return (free on steam!) Made in p5.js as a part of a class at MIT (4.032: Design Studio: Information and Visualization). I took what we learned in the class and developed a visualization of a raw spreadsheet of aggregated video game character statistics into a digestible and compelling data visualization.",
     link: [
       {
         external: true,
@@ -47,11 +47,11 @@ const ProjListing = [
   {
     title: "Spartan",
     date: "Dec 2020",
-    text: `A boxing training device for intermediate-level boxers. Developed as a part of 2.s009, *Explorations in Product Design*. Co-System Integrator`,
+    text: `A boxing training device for intermediate-level boxers. Developed as a part of 2.s009, *Explorations in Product Design*. We decided on this product after 6 weeks of ideation, modeling, and user research & testing. I was a System Integrator and, along with engineering the product, I delegated tasks for each milestone among team members.`,
     link: [
       {
         external: true,
-        linkName: "Spartan product sheet",
+        linkName: "Product sheet",
         linkPath: "https://s009kindness.com/images/productSheets/red_spartan_product_sheet_sm.pdf",
         key: Math.random(),
       },
