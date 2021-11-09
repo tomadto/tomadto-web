@@ -1,5 +1,34 @@
 const ProjListing = [
   {
+    title: "Creating Adaptable Devices for Learning Maker Skills",
+    date: "May 2021",
+    text:
+      "UROP for HCI Engineering Lab at MIT CSAIL. An investigation into making a universal device that attaches onto a maker tool to allow users to teach themselves how to use a tool faster. In the semester, I produced a wireframe of useful metrics to track, and a physical mockup for sensing tool interaction.",
+    link: [
+      {
+        external: true,
+        linkName: "Video of Mockup",
+        linkPath: "https://tomadto.s-ul.eu/content/bPjExdsV",
+        key: Math.random(),
+      },
+      {
+        external: true,
+        linkName: "Presentation",
+        linkPath: "https://tomadto.s-ul.eu/content/DZhiBHvd",
+        key: Math.random(),
+      },
+      {
+        external: true,
+        linkName: "Figma Project Link",
+        linkPath:
+          "https://www.figma.com/file/OOQPwjYjf1uePEN74sRLE8/high-level-tool-evaluation?node-id=0%3A1",
+        key: Math.random(),
+      },
+    ],
+    bgClass: "b-maker",
+    key: Math.random(),
+  },
+  {
     title: "Eternal Return Data Visualization",
     date: "May 2021",
     text:

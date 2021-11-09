@@ -81,7 +81,7 @@
 }
 
 .Projects-cardInnerText {
-  padding: var(--xs) var(--m);
+  padding: 0 var(--m);
   /* background-color: #8eb8e5; */
   margin: auto;
   font-size: var(--m);
@@ -93,7 +93,7 @@
   grid-auto-flow: column;
   gap: 1em;
   /* left: 50%; */
-  padding: var(--xs) var(--m);
+  padding: 0 var(--m);
   margin: auto;
   width: auto;
   font-size: var(--m);
