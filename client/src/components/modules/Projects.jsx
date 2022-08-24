@@ -8,7 +8,7 @@ import "../../utilities.css";
 import "./Projects.css";
 import "./backgrounds.css";
 import lorem from "./lorem.json";
-import ProjListing from "./ProjListing.js";
+import cardContent from "./ProjListing.js";
 
 //mobile friendliness https://stackoverflow.com/a/55288649
 
@@ -17,7 +17,7 @@ const Projects = (props) => {
   //   const handleClick = () => {
   //     setIsOpen(!modalIsOpen);
   //   };
-  const [cardContent, setCardContent] = useState(ProjListing);
+  //const [cardContent, setCardContent] = useState(ProjListing);
   return (
     <Home place="projects">
       <div className="u-flex">

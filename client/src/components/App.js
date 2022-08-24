@@ -10,6 +10,7 @@ import Projects from "./modules/Projects.jsx";
 import Landing from "./pages/Landing.js";
 import NavBar from "./modules/NavBar.js";
 import Footer from "./modules/Footer.jsx";
+import Stories from "./modules/Stories.jsx";
 
 import "../utilities.css";
 
@@ -52,6 +53,7 @@ const App = () => {
         <Classes path="/classes" />
         <Play path="/play" />
         <Erbs path="/erbs" />
+        <Stories path="/stories" />
         <NotFound default />
       </Router>
       <Footer />

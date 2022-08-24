@@ -23,7 +23,7 @@ const Footer = (props) => {
             >
               linkedin
             </a>
-            <a className="Footer-containerBottomContent" href="mailto:tadebiyi@mit.edu">
+            <a className="Footer-containerBottomContent" href="mailto:tomadto7@gmail.com">
               email
             </a>
             <a className="Footer-containerBottomContent" href="https://github.com/tomadto/">

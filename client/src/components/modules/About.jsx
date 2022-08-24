@@ -21,7 +21,7 @@ const About = (props) => {
             <section>
               <p>
                 I'm a recent graduate of MIT in Mechanical Engineering & Design. I like making,
-                coding, gaming, trying new things and all things design.
+                coding, gaming, trying new things and all things design. I use she/they pronouns!
               </p>
               <p></p>
             </section>
@@ -29,20 +29,25 @@ const About = (props) => {
               <h3>What I've been up to...</h3>
               <ul>
                 <li>maintaining this website!</li>
+                <li>working at Heirloom, a carbon removal startup near San Francisco.</li>
 
-                <li>
-                  staffing{" "}
-                  <a href="http://web.mit.edu/2.009/www/index.html" className="u-bold">
-                    2.009: Product Engineering Processes
-                  </a>
-                  , a senior-level MechE capstone class.
-                </li>
-                <li>staying extra safe from covid :'(.</li>
+                <li>staying extra safe from covid and monkeypox :(((((((.</li>
               </ul>
             </section>
             <section>
               <h3>What I've recently done...</h3>
               <ul>
+                <li>
+                  staffed{" "}
+                  <a href="http://web.mit.edu/2.009/www/index.html" className="u-bold">
+                    2.009: Product Engineering Processes
+                  </a>
+                  , a senior-level MechE capstone class, in fall 2021. (take a look at{" "}
+                  <a href="https://tomadto.s-ul.eu/cY8wbSNa" className="u-bold">
+                    this cool bokeh
+                  </a>{" "}
+                  I made.)
+                </li>
                 <li>graduated from MIT!!!</li>
                 <li>
                   staffed{" "}

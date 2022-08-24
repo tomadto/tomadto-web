@@ -1,5 +1,21 @@
 const ProjListing = [
   {
+    title: "Heirloom",
+    date: "2022",
+    text:
+      "Mechanical Design Engineer at Heirloom, working on developing automated machines that help remove CO2 from the atmosphere.",
+    link: [
+      {
+        external: true,
+        linkName: "Website",
+        linkPath: "https://heirloomcarbon.com",
+        key: Math.random(),
+      },
+    ],
+    bgClass: "b-heirloom",
+    key: Math.random(),
+  },
+  {
     title: "Creating Adaptable Devices for Learning Maker Skills",
     date: "May 2021",
     text:
@@ -71,6 +87,15 @@ const ProjListing = [
     // more: {
     //   path: "/projects/spartan",
     // },
+    story: {
+      goal:
+        "Working in a team of 16, to create and launch a user-centered product prototype in one semester.",
+      role: "co-System Integrator",
+      context:
+        "for the class 2.s009 (Explorations in Product Design) at MIT (a condensed, COVID version of MIT 2.009)",
+      longText:
+        "My team developed Spartan, a boxing training device for people desiring to refine their defensive skills without the need of a training partner. We decided on this product after roughly 6 weeks of ideation, user research, and modeling. My role on the team was a System Integrator/”SI” (becoming a co-SI when the team merged halfway through the semester) and I worked to organize the team and delegate tasks to people for the next milestone. On the mechanical side, one notable problem was the type of mechanism we would use to actuate the arm that punches out. I worked on a solution that involved releasing a loaded spring to launch out a tethered ball quickly towards the user and powering a winch to retract the ball after. We created CAD models and laser cut out parts to test out this mechanism, but through various test models, we found that the other solution, a servo-powered 4 bar linkage, better met our predetermined specs, especially concerning the retraction speed of the arm. As we converged on the final product architecture, I helped design and fabricate parts on a waterjet and CNC mill and prepared renderings for our final presentation.",
+    },
     bgClass: "b-spartan",
     key: Math.random(),
   },

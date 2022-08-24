@@ -1,3 +1,10 @@
+.b-heirloom {
+  background-image: url("https://uploads-ssl.webflow.com/6041330ff151737fb03fc474/604970012950e0db2dd8315d_Heirloom%20Logotype%20White.svg");
+  background-size: 80%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: #002b34;
+}
 .b-maker {
   background-image: url("https://tomadto.s-ul.eu/content/DANTwEW2");
   background-size: contain;
