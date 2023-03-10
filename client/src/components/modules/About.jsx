@@ -31,7 +31,9 @@ const About = (props) => {
                 <li>maintaining this website!</li>
                 <li>working at Heirloom, a carbon removal startup near San Francisco.</li>
 
-                <li>staying extra safe from covid and monkeypox :(((((((.</li>
+                <li>
+                  riding my euc, learning how to 3d print, figuring out what it means to "adult"...
+                </li>
               </ul>
             </section>
             <section>
