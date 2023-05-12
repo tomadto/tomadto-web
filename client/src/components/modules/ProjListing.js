@@ -16,6 +16,40 @@ const ProjListing = [
     key: Math.random(),
   },
   {
+    title: "Teaching Assistant for 2.009: Product Engineering Processes",
+    date: "Aug 2022 - Jan 2023",
+    text:
+      "Mentored teams in product design mechanical, electrical, and software engineering and design, project management, and engaged in media production. Created 2D and 3D graphics and animations and helped produced and maintain photo albums for each class event.",
+    link: [
+      {
+        external: true,
+        linkName: "Class Website",
+        linkPath: "https://web.mit.edu/2.009/www/index.html",
+        key: Math.random(),
+      },
+      {
+        external: true,
+        linkName: "Bokeh for the Final Presentations (made by me)",
+        linkPath: "https://tomadto.s-ul.eu/cY8wbSNa",
+        key: Math.random(),
+      },
+      {
+        external: true,
+        linkName: "Theme Mind Map graphic (made by me)",
+        linkPath: "https://tomadto.s-ul.eu/lUhoOYqS",
+        key: Math.random(),
+      },
+      {
+        external: true,
+        linkName: "Large version of card background photo (took by me)",
+        linkPath: "https://tomadto.s-ul.eu/izA5FbYw",
+        key: Math.random(),
+      },
+    ],
+    bgClass: "b-2009TA",
+    key: Math.random(),
+  },
+  {
     title: "Creating Adaptable Devices for Learning Maker Skills",
     date: "May 2021",
     text:
