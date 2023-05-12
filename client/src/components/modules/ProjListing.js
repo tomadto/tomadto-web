@@ -19,7 +19,7 @@ const ProjListing = [
     title: "TA for MIT 2.009: Product Engineering Processes",
     date: "Aug 2022 - Jan 2023",
     text:
-      "Mentored teams in product design, mechanical, electrical, and software engineering and design, and project management. Also engaged in media production. Created 2D and 3D graphics and animations and helped produced and maintain photo albums for each class event.",
+      "Mentored teams in product design, engineering, and project management. Also produced 2D and 3D media and helped produced and maintain photo albums for each class event.",
     link: [
       {
         external: true,
@@ -29,19 +29,19 @@ const ProjListing = [
       },
       {
         external: true,
-        linkName: "Bokeh for the Final Presentations (made by me)",
+        linkName: "Final Presentation Bokeh (made by me)",
         linkPath: "https://tomadto.s-ul.eu/cY8wbSNa",
         key: Math.random(),
       },
       {
         external: true,
-        linkName: "Theme Mind Map graphic (made by me)",
+        linkName: "Mind Map Graphic (made by me)",
         linkPath: "https://tomadto.s-ul.eu/lUhoOYqS",
         key: Math.random(),
       },
       {
         external: true,
-        linkName: "Large version of card background photo (took by me)",
+        linkName: "Full Card BG Photo (took by me)",
         linkPath: "https://tomadto.s-ul.eu/izA5FbYw",
         key: Math.random(),
       },
