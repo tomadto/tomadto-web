@@ -19,7 +19,7 @@ const ProjListing = [
     title: "TA for MIT 2.009: Product Engineering Processes",
     date: "Aug 2022 - Jan 2023",
     text:
-      "Mentored teams in product design, engineering, and project management. Also produced 2D and 3D media and helped produced and maintain photo albums for each class event.",
+      "Mentored teams in product design, engineering, and project management. Also produced 2D and 3D media and helped produce and maintain photo albums for each class event.",
     link: [
       {
         external: true,
