@@ -16,10 +16,10 @@ const ProjListing = [
     key: Math.random(),
   },
   {
-    title: "Teaching Assistant for 2.009: Product Engineering Processes",
+    title: "TA for MIT 2.009: Product Engineering Processes",
     date: "Aug 2022 - Jan 2023",
     text:
-      "Mentored teams in product design mechanical, electrical, and software engineering and design, project management, and engaged in media production. Created 2D and 3D graphics and animations and helped produced and maintain photo albums for each class event.",
+      "Mentored teams in product design, mechanical, electrical, and software engineering and design, and project management. Also engaged in media production. Created 2D and 3D graphics and animations and helped produced and maintain photo albums for each class event.",
     link: [
       {
         external: true,
