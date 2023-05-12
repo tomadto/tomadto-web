@@ -29,7 +29,10 @@ const About = (props) => {
               <h3>What I've been up to...</h3>
               <ul>
                 <li>maintaining this website!</li>
-                <li>working at Heirloom, a carbon removal startup near San Francisco.</li>
+                <li>
+                  recently left Heirloom, a carbon removal startup near San Francisco, and trying to
+                  find the path I want to take next.
+                </li>
 
                 <li>
                   riding my euc, learning how to 3d print, figuring out what it means to "adult"...
