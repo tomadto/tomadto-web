@@ -35,7 +35,11 @@ const About = (props) => {
                 </li>
 
                 <li>
-                  riding my euc, learning how to 3d print, figuring out what it means to "adult"...
+                  riding{" "}
+                  <a href="https://tomadto.s-ul.eu/vinSHsOF" className="u-bold">
+                    my euc
+                  </a>
+                  , learning how to 3d print, figuring out what it means to "adult"...
                 </li>
               </ul>
             </section>
