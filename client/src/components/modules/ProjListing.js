@@ -3,7 +3,7 @@ const ProjListing = [
     title: "Heirloom",
     date: "Feb 2022 - Apr 2023",
     text:
-      "Mechanical Design Engineer at Heirloom, working on developing automated machines that help remove CO2 from the atmosphere.",
+      "Mechanical Design Engineer at Heirloom, worked on developing automated machines that help remove CO2 from the atmosphere.",
     link: [
       {
         external: true,
