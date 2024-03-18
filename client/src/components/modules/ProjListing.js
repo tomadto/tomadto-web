@@ -1,5 +1,21 @@
 const ProjListing = [
   {
+    title: "Maimai-Inspired Rhythm Game Controller",
+    date: "Jul 2023",
+    text:
+      "A 3D printed controller, wired and programmed as a keyboard using an Arduino, and paired with a touch screen. Simulates the experience of playing maimai at home outside of arcades.",
+    link: [
+      {
+        external: true,
+        linkName: "Video in action",
+        linkPath: "https://tomadto.s-ul.eu/content/rLrS71Wn",
+        key: Math.random(),
+      },
+    ],
+    bgClass: "b-minidx",
+    key: Math.random(),
+  },
+  {
     title: "Heirloom",
     date: "Feb 2022 - Apr 2023",
     text:
