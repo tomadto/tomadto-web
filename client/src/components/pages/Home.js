@@ -61,7 +61,7 @@ const Home = (props) => {
               projects
             </Link>
             <a
-              href="https://tomadto.s-ul.eu/me/JIw5GvdD"
+              href="https://tomadto.s-ul.eu/me/ALhf2Bbq"
               target="_blank"
               className="u-textGrey u-textCenter Home-link"
             >
